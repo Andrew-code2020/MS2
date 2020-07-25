@@ -28,8 +28,21 @@ background-color: #f0f8ff;
 color: #a8afb3;
 text-align:center;
 font-family: Recursive, sans-serif;
+}
 
+.navbar-light a {
+background-color: #f0f8ff;
+color: #a8afb3;
+text-align:center;
+font-family: Recursive, sans-serif;
 }
 
 
 /*---Section Page .....*/
+
+/*---Footer Page-----*/
+footer {
+background-color: #f0f8ff;
+color: #a8afb3;
+font-family: Recursive, sans-serif;
+}
