@@ -7,7 +7,7 @@
 /*---Header Alert Bar----*/
 .alert-danger
 {
-background-color: #f0f8ff;
+background-color: #fff7f0;
 color: #a8afb3;
 text-align:center;
 font-family: Recursive, sans-serif;
@@ -35,6 +35,17 @@ background-color: #f0f8ff;
 color: #a8afb3;
 text-align:center;
 font-family: Recursive, sans-serif;
+}
+
+.navbar-custom{
+   background-color: #f0f8ff; 
+}
+
+
+.btn-outline-success{
+    color: #a8afb3;
+    border-color: #a8afb3;
+
 }
 
 
