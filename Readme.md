@@ -250,6 +250,7 @@ I consulted the following websites for inspiration and to learn how to implement
   * User Centric Front End Development 
 
 * I copied the Bootstrap CDN and Fonta awesome CDN links from my previous milestone project
+* https://www.geeksforgeeks.org/ for custom navbar 
 
 ##### Content
 * The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is designed to be entirely fictional and the business does not exist. Andrew and Julie really do exist. Andrew is the author of this project and Julie is his partner. Andrew's qualifications are real and his biography is real. Julie's qualifications as a Lawyer are real but her Yoga and Pilates qualifications are a work of fiction.
