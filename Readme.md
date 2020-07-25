@@ -1,13 +1,6 @@
-# Costa Del Cork
+# Ireland Holiday Destination
 Code institute milestone project 2 - Construct a Holiday
 
-Temple Lean is a small sole trader style fitness facility at the heart of Cork City Ireland. Temple Lean prides itself on delivering high quality fitness services and classes to their clients.
-Temple Lean currently caters for young professional clients (Barristers, Solicitors, Doctors, Nurses, Scientists and Business personnel) usually aged 18-45 years. 
-General (on the floor of the gym) and survey feedback has indicated that an online platform is needed to help retain existing business, compete with other online fitness platforms and open up new leads to potential clients.
-Recently the Corporate Ireland market along with strong emphasis from state bodies on physical activity has lead to increased demand for services at Temple Lean. 
-The problem for Temple Lean is that they do not have a system whereby current clients and members can access basic information and/or communicate with Temple Lean in one area. 
-The flow of communication is scattered on Social Media. To ensure good customer relations management and a clean flow of services a website is considered a viable solution and a top priority for Temple Lean to not only increase their market share but to eventually automate many day to day business adminstration tasks. 
-Success for Temple Lean will allow them to spend more time with their clients in person and backing up that in person support with strong online communication where needed. 
 
 ### UX
 The key reasons for producing the website were to;
@@ -255,6 +248,8 @@ I consulted the following websites for inspiration and to learn how to implement
   * HTML Fundamentals
   * CSS Fundamentals
   * User Centric Front End Development 
+
+* I copied the Bootstrap CDN and Fonta awesome CDN links from my previous milestone project
 
 ##### Content
 * The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is designed to be entirely fictional and the business does not exist. Andrew and Julie really do exist. Andrew is the author of this project and Julie is his partner. Andrew's qualifications are real and his biography is real. Julie's qualifications as a Lawyer are real but her Yoga and Pilates qualifications are a work of fiction.
