@@ -30,28 +30,36 @@ text-align:center;
 font-family: Recursive, sans-serif;
 }
 
-.navbar-light a {
+.nav-link {
 background-color: #f0f8ff;
 color: #a8afb3;
 text-align:center;
 font-family: Recursive, sans-serif;
 }
 
-.navbar-custom{
+.nav-color{
    background-color: #f0f8ff; 
 }
 
-
-.btn-outline-success{
-    color: #a8afb3;
-    border-color: #a8afb3;
-
+.navbar-custom{
+    background-color: #f0f8ff; 
 }
 
 
 /*---Section Page .....*/
 
+.jumbotron{
+    background-image:url("../images/waterfall.gif");
+    background-size:cover;
+    color: #a8afb3;
+}
+
+.Ireland-callout{
+background-color:#f0f8ff;
+}
+
 /*---Footer Page-----*/
+
 footer {
 background-color: #f0f8ff;
 color: #a8afb3;
