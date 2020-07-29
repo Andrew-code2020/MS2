@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/ba4b42ff38.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Holiday in Ireland</title>
 </head>
+
 <body>
-    
+	<section>
+		<div class="col-sm">
+        <form>
+				<div class="form-group row">
+					<label for="firstname" class="col-sm-2 col-form-label">First Name : </label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" placeholder="First name">
+                    </div>
+					</div>
+					<div class="form-group row">
+						<label for="lastname" class="col-sm-2 col-form-label">Last Name : </label>
+						<div class="col-sm-10">
+							<input type="lastname" class="form-control" id="lastname" placeholder="Last name">
+                        </div>
+						</div>
+						<div class="form-group row">
+							<label for="inputEmail3" class="col-sm-2 col-form-label">Email : </label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
+                                </div>
+							</div>
+							<div class="form-group row">
+								<label for="exampleFormControlSelect1">Please select the type of holiday you wish to request</label>
+								<select class="form-control" id="exampleFormControlSelect1" placeholder="please select your preferred type of holiday">
+                                <option>Activity</option>
+                                <option>City Break</option>
+                                <option>Culture</option>
+                                <option>Wellness</option>
+                                </select>
+							</div>
+                        <div class="form-group">
+							<label for="validationTextarea">Message to Holiday in Ireland</label>
+							<textarea class="form-control is-valid" id="validationTextarea" placeholder="enter your message to the Holiday in Ireland team"></textarea>
+							<div class="valid-feedback">
+							</div>
+						</div>
+							<fieldset class="form-group">
+								<div class="row">
+									<legend class="col-form-label col-sm-2 pt-0">Please add me to the Holiday in Ireland
+										email list</legend>
+									<div class="col-sm-10">
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+											<label class="form-check-label" for="gridRadios1">
+            Yes add me to the email list
+          </label>
+										</div>
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+											<label class="form-check-label" for="gridRadios2">
+            No thanks please leave me off the email list
+          </label>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+							<div class="form-group row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-primary">Submit up for your holiday application form</button>
+								</div>
+							</div>
+						</div>
+					</div>
+		  </form>
+	</section>
+
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm">
+				<h4>Social Media</h4>
+				<p>Follow Ireland on Social Media by clicking on the icons below</p>
+				<a class="social-media" href="https://www.instagram.com/andrew_burns_moves/"
+					target="_blank"><i class="fab fa-instagram-square"></i></a>
+				<a class="social-media" href="https://www.facebook.com/andrewburnsmoves"
+					target="_blank"><i class="fab fa-facebook-square"></i></a>
+				<a class="social-media" href="https://twitter.com/aburnsmoves"
+					target="_blank"><i class="fab fa-twitter"></i></a>
+				<a class="social-media"
+					href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
+					target="_blank"><i class="fab fa-youtube"></i></a>
+			</div>
+			<div class="col-sm">
+				<h4> Contact us </h4>
+				<p> Need to get in touch ? Click the icon below and drop us an email </p>
+				<a class="footer-media" href="contact.html"><i class="fas fa-envelope-square"></i></a>
+			</div>
+			<div class="col-sm">
+				<h4>FAQ</h4>
+				<p>Have a question about Ireland. Perhaps our frequently asked questions will help you find the answer
+					you're loking for</p>
+				<a class="footer-media" href="#" target="_blank"><i class="far fa-question-circle"></i>
+				</a>
+			</div>
+
+		</div>
+	</footer>
 </body>
+
 </html>

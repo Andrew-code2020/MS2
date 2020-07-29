@@ -82,3 +82,15 @@ font-family: Recursive, sans-serif;
 .footer-media i:hover {
 color: #fff7f0;
 }
+
+/*---contact us---*/
+
+section{
+    background-color:#f0f8ff;
+}
+
+.form-group{
+    background-color:#f0f8ff;
+    color: #a8afb3;
+    padding:15px 10px 15px 10px; 
+}
