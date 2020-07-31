@@ -93,7 +93,8 @@ Route to wireframe pics in github repository
 ### Technologies Used
 * HTML5 - Used for structure and content of website
 * CSS3 - Used for personalised styling of website
-* Java script - Used for Modals only
+* Java script
+* JQuery CDN "https://code.jquery.com/jquery-3.5.1.js"
 * Bootstrap 
     * Website https://getbootstrap.com/
     * Used to import generic styling
@@ -251,6 +252,8 @@ I consulted the following websites for inspiration and to learn how to implement
 
 * I copied the Bootstrap CDN and Fonta awesome CDN links from my previous milestone project
 * https://www.geeksforgeeks.org/ for custom navbar 
+* Jquery "https://code.jquery.com/jquery-3.5.1.js"
+  
 
 ##### Content
 * The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is designed to be entirely fictional and the business does not exist. Andrew and Julie really do exist. Andrew is the author of this project and Julie is his partner. Andrew's qualifications are real and his biography is real. Julie's qualifications as a Lawyer are real but her Yoga and Pilates qualifications are a work of fiction.
