@@ -253,6 +253,7 @@ I consulted the following websites for inspiration and to learn how to implement
 * I copied the Bootstrap CDN and Fonta awesome CDN links from my previous milestone project
 * https://www.geeksforgeeks.org/ for custom navbar 
 * Jquery "https://code.jquery.com/jquery-3.5.1.js"
+* Facts on Irish History obtained from https://en.wikipedia.org/wiki/Ireland
   
 
 ##### Content
