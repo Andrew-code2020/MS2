@@ -100,3 +100,8 @@ section{
     color: #a8afb3;
     padding:15px 10px 15px 10px; 
 }
+
+/*--explore ireland---*/
+#map {
+    height:100vh;
+}
