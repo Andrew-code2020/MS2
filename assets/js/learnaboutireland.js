@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".19thcentury").hide();
+    $(".nineteenthcentury").hide();
     $(".20thcentury").hide();
     $(".21stcentury").hide();
     $(".Dimensions").hide();
@@ -14,8 +14,8 @@ $(document).ready(function () {
 });
 /*----History-------------------------------------------------------------------*/
 $(".toggleButton19").click(function (){
-    $(".history1").addClass("19thcentury");
-    $(".19thcentury").toggle("slow");
+    $(".history1").addClass(".nineteenthcentury");
+    $(".nineteenthcentury").toggle("slow");
 });
 
 $(".toggleButton20").click(function (){
