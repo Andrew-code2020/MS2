@@ -8,8 +8,11 @@ $(document).ready(function () {
     $(".gaa").hide();
     $(".soccer").hide();
     $(".rugby").hide();
+    $(".music").hide();
+    $(".language").hide();
+    $(".science").hide();
 });
-/*----History-----*/
+/*----History-------------------------------------------------------------------*/
 $(".toggleButton19").click(function (){
     $(".19thcentury").next().toggle("slow");
 });
@@ -23,7 +26,7 @@ $(".toggleButton21").click(function (){
     $(".21stcentury").toggle("slow");
 });
 
-/*-----Geography------------------------------*/
+/*-----Geography----------------------------------------------------------------------------------------------*/
 $(".toggleButtonDimensions").click(function (){
     $(".Dimensions").toggle("slow");
 });
@@ -32,16 +35,36 @@ $(".toggleButtonclimate").click(function (){
     $(".climate").toggle("slow");
 });
 
-$(".toggleButtonewildanimals").click(function (){
+$(".toggleButtonwildanimals").click(function (){
     $(".wildanimals").toggle("slow");
 });
 
-/*-----Sport------------------------*/
+/*-----Sport----------------------------------------------------------------*/
+$(".toggleButtongaa").click(function (){
+    $(".gaa").toggle("slow");
+});
+
+$(".toggleButtonsoccer").click(function (){
+    $(".soccer").toggle("slow");
+});
+
+$(".toggleButtonrugby").click(function (){
+    $(".rugby").toggle("slow");
+});
 
 
+/*-----Culture----------------------------------------------------------------*/
+$(".toggleButtonmusic").click(function (){
+    $(".music").toggle("slow");
+});
 
-/*-----Music----------------------------*/
+$(".toggleButtonlanguage").click(function (){
+    $(".language").toggle("slow");
+});
 
+$(".toggleButtonscience").click(function (){
+    $(".science").toggle("slow");
+});
 
 
 /***$(".toggleButton").click(function (){
