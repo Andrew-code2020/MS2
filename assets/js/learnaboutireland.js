@@ -2,8 +2,14 @@ $(document).ready(function () {
     $(".19thcentury").hide();
     $(".20thcentury").hide();
     $(".21stcentury").hide();
+    $(".Dimensions").hide();
+    $(".climate").hide();
+    $(".wildanimals").hide();
+    $(".gaa").hide();
+    $(".soccer").hide();
+    $(".rugby").hide();
 });
-
+/*----History-----*/
 $(".toggleButton19").click(function (){
     $(".19thcentury").next().toggle("slow");
 });
@@ -16,6 +22,27 @@ $(".toggleButton20").click(function (){
 $(".toggleButton21").click(function (){
     $(".21stcentury").toggle("slow");
 });
+
+/*-----Geography------------------------------*/
+$(".toggleButtonDimensions").click(function (){
+    $(".Dimensions").toggle("slow");
+});
+
+$(".toggleButtonclimate").click(function (){
+    $(".climate").toggle("slow");
+});
+
+$(".toggleButtonewildanimals").click(function (){
+    $(".wildanimals").toggle("slow");
+});
+
+/*-----Sport------------------------*/
+
+
+
+/*-----Music----------------------------*/
+
+
 
 /***$(".toggleButton").click(function (){
 
