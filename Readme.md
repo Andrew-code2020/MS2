@@ -5,11 +5,11 @@ Code institute milestone project 2 - Construct a Holiday
 ### UX
 The key reasons for producing the website were to;
 
-* help current users learn about the fitness facility Temple Lean
-* help new potential users learn easily about the fitness services Temple Lean offer
+* help current users learn about Ireland as a holiday destination
+* help new potential users learn easily about the type of holidays that are available in Ireland
 * help new potential users connect and communicate easily with the team at Temple Lean
-* help new potential users easily follow the team at Temple Lean via Social Media
-* help the gym owner attract and retain clients
+* help new potential users easily follow Ireland Social Media accounts
+* help the Ireland attract tourists 
 
 At the outset the minimum viable product was determined to be a communication platform between the owner/operator(s) of Temple Lean and the current clients. 
 It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior engagement with Temple Lean and it's services. Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users. 
