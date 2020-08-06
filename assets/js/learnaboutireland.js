@@ -14,7 +14,8 @@ $(document).ready(function () {
 });
 /*----History-------------------------------------------------------------------*/
 $(".toggleButton19").click(function (){
-    $(".19thcentury").next().toggle("slow");
+    $(".history1").addClass("19thcentury");
+    $(".19thcentury").toggle("slow");
 });
 
 $(".toggleButton20").click(function (){

@@ -46,7 +46,7 @@ font-family: Recursive, sans-serif;
 }
 
 
-/*---Section Page .....*/
+/*---Section -----------------------------------------------------------*/
 
 .jumbotron{
     background-image:url("../images/waterfall.gif");
@@ -83,12 +83,43 @@ font-family: Recursive, sans-serif;
 color: #fff7f0;
 }
 
-/*---learnaboutireland---*/
+/*-----------------------------------learnaboutireland-------------------------------------------------------------*/
 
 .row{
 color:#a8afb3;
+height: 400px;
 }
-/*---contact us---*/
+
+.history1 {
+background-image:url("../images/historyireland.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+
+}
+
+.geography1 {
+background-image:url("../images/geography.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+.sport1 {
+background-image:url("../images/sportireland.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+.culture1 {
+background-image:url("../images/culture.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+}
+
+.19thcentury {
+ display:block;
+}
+
+/*----------------------------------contact us-------------------------------------*/
 
 
 section{
@@ -101,7 +132,14 @@ section{
     padding:15px 10px 15px 10px; 
 }
 
-/*--explore ireland---*/
+button {
+  color: #a8afb3;
+  font-family: Recursive, sans-serif;
+  border:#a8afb3;
+}  
+
+/*---------------explore ireland----------------------------------------------------------*/
 #map {
     height:100vh;
 }
+
