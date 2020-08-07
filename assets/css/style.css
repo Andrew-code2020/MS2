@@ -46,6 +46,11 @@
 
 /*---Section -----------------------------------------------------------*/
 
+section {
+  background-color: #f0f8ff;
+  font-family: Recursive, sans-serif;
+}
+
 .jumbotron {
   background-image: url("../images/waterfall.gif");
   background-size: 100%;
@@ -63,6 +68,7 @@ footer {
   background-color: #f0f8ff;
   color: #a8afb3;
   font-family: Recursive, sans-serif;
+  padding-top: 10px;
 }
 
 .footer-media i {
@@ -83,6 +89,10 @@ footer {
 
 /*-----------------------------------learnaboutireland-------------------------------------------------------------*/
 
+h3{
+    font-family: Recursive, sans-serif;
+}
+
 .row {
   color: #a8afb3;
   height: 400px;
@@ -90,37 +100,63 @@ footer {
 
 .history1 {
   background-image: url("../images/historyireland.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  height:400px;
+  overflow:auto;
 }
 
 .geography1 {
-  background-image: url("../images/geography.jpg");
-  background-size: 100%;
+  background-image: url("../images/wildlife1.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  height:400px;
+  overflow:auto;
 }
 
 .sport1 {
   background-image: url("../images/sportireland.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  height:400px;
+  overflow:auto;
 }
 
 .culture1 {
   background-image: url("../images/culture.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  height:400px;
+  overflow:auto;
 }
 
-.nineteenthcentury {
-  visibility: hidden;
+
+.nineteenthcentury, .twentiethcentury, .twentyfirstcentury{
+    background-color: #f0f8ff;
+    height:75%;
+    overflow:auto;
+}
+
+.Dimensions, .climate, .wildanimals {
+    background-color: #f0f8ff;
+    height:75%;
+    overflow:auto;
+}
+
+.gaa, .soccer, .rugby {
+    background-color: #f0f8ff;
+    height:75%;
+    overflow:auto;
+}
+
+.music, .language, .science {
+    background-color: #f0f8ff;
+    height:75%;
+    overflow:auto;
 }
 
 /*----------------------------------contact us-------------------------------------*/
 
-section {
-  background-color: #f0f8ff;
-}
 
 .form-group {
   background-color: #f0f8ff;

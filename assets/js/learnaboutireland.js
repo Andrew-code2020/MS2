@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".nineteenthcentury").hide();
-    $(".20thcentury").hide();
-    $(".21stcentury").hide();
+    $(".twentiethcentury").hide();
+    $(".twentyfirstcentury").hide();
     $(".Dimensions").hide();
     $(".climate").hide();
     $(".wildanimals").hide();
@@ -12,19 +12,18 @@ $(document).ready(function () {
     $(".language").hide();
     $(".science").hide();
 });
-/*----History-------------------------------------------------------------------*/
+/*----History-----------$(".nineteenthcentury").toggle("slow"); $("this").removeClass( ".history1" ).addClass( "nineteenthcentury");--------------------------------------------------------*/
 $(".toggleButton19").click(function (){
-    $(".history1").addClass(".nineteenthcentury");
     $(".nineteenthcentury").toggle("slow");
 });
 
 $(".toggleButton20").click(function (){
-    $(".20thcentury").toggle("slow");
+    $(".twentiethcentury").toggle("slow");
 }); 
 
 
 $(".toggleButton21").click(function (){
-    $(".21stcentury").toggle("slow");
+    $(".twentyfirstcentury").toggle("slow");
 });
 
 /*-----Geography----------------------------------------------------------------------------------------------*/
