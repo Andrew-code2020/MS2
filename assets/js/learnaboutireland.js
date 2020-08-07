@@ -12,7 +12,8 @@ $(document).ready(function () {
     $(".language").hide();
     $(".science").hide();
 });
-/*----History-----------$(".nineteenthcentury").toggle("slow"); $("this").removeClass( ".history1" ).addClass( "nineteenthcentury");--------------------------------------------------------*/
+
+/*----History-------------------------------------------------------------------*/
 $(".toggleButton19").click(function (){
     $(".nineteenthcentury").toggle("slow");
 });

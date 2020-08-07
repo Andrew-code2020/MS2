@@ -20,7 +20,7 @@
   color: #a8afb3;
 }
 
-/*---Header Nav Bar----*/
+/*------------------------------------Header Nav Bar-------------------------------------------------*/
 
 .navbar-light {
   background-color: #f0f8ff;
@@ -62,30 +62,6 @@ section {
   background-color: #f0f8ff;
 }
 
-/*---Footer Page-----*/
-
-footer {
-  background-color: #f0f8ff;
-  color: #a8afb3;
-  font-family: Recursive, sans-serif;
-  padding-top: 10px;
-}
-
-.footer-media i {
-  font-size: 36px;
-  padding-left: 150px;
-  color: #a8afb3;
-}
-
-.social-media i {
-  font-size: 36px;
-  padding-right: 30px;
-  color: #a8afb3;
-}
-
-.footer-media i:hover {
-  color: #fff7f0;
-}
 
 /*-----------------------------------learnaboutireland-------------------------------------------------------------*/
 
@@ -93,17 +69,27 @@ h3{
     font-family: Recursive, sans-serif;
 }
 
+.history{
+    padding-top:10px;
+    
+}
+/*---changed row height to auto for footer------------------------------------------------------*/
 .row {
   color: #a8afb3;
-  height: 400px;
+  height: auto;
 }
 
 .history1 {
-  background-image: url("../images/historyireland.jpg");
+  background-image: url("../images/historyireland3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  filter: sepia(20%);
   height:400px;
   overflow:auto;
+}
+span{
+    background-color: #f0f8ff;
 }
 
 .geography1 {
@@ -118,6 +104,7 @@ h3{
   background-image: url("../images/sportireland.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height:400px;
   overflow:auto;
 }
@@ -125,6 +112,7 @@ h3{
 .culture1 {
   background-image: url("../images/culture.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height:400px;
   overflow:auto;
@@ -173,4 +161,32 @@ button {
 /*---------------explore ireland----------------------------------------------------------*/
 #map {
   height: 100vh;
+}
+
+/*---Footer-----*/
+
+footer {
+  background-color: #f0f8ff;
+  color: #a8afb3;
+  font-family: Recursive, sans-serif;
+  height:200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+.footer-media i {
+  font-size: 36px;
+  padding-left: 150px;
+  color: #a8afb3;
+}
+
+.social-media i {
+  font-size: 36px;
+  padding-right: 30px;
+  color: #a8afb3;
+}
+
+.footer-media i:hover {
+  color: #fff7f0;
 }
