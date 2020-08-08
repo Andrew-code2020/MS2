@@ -1,7 +1,11 @@
 function sendMail (contactForm){
     emailjs.send("gmail", "Holiday in Ireland", {
-        "from_name":contactForm.name.value,
-        "from_email": contactForm.emailaddress.value
+        "from_name":contactForm.from_name.value,
+        "from_email": contactForm.from_email.value, 
+        "holiday_ire": contactForm.holiday_ire.value,
+        "message_ire": contactForm.message_ire.value,
+        "gridRadios1": contactForm.gridRadios1.value,
+        "gridRadios2": contactForm.gridRadios2.value
     })
     .then(
         function(response){
@@ -10,4 +14,5 @@ function sendMail (contactForm){
         function(error){
             console.log("FAILED", error);
         })
-return false}
+return false;
+}
