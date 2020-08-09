@@ -5,6 +5,8 @@ function sendMail(contactForm){
         "holiday_ire": contactForm.holiday_ire.value,
         "message_ire": contactForm.message_ire.value,
         "gridRadios1": contactForm.gridRadios1.value,
+        "number_people": contactForm.number_people.value,
+        "transport_mode": contactForm.transport_mode.value
     })
     .then(
         function(response){

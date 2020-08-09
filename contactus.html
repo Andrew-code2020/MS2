@@ -51,7 +51,8 @@
 	<!---JS Form-->
     <section>
 		<div class="col-sm">
-			<form class="contactForm" id="contactForm" onsubmit="return sendMail(this);">
+			<h1>Let us find the perfect holiday in Ireland for you</h1>
+            <form class="contactForm" id="contactForm" onsubmit="return sendMail(this);">
 				<div class="form-group row">
 					<label for="from_name" class="col-sm-2 col-form-label">Full Name : </label>
 					<div class="col-sm-10">
@@ -65,16 +66,37 @@
                                 </div>
 							</div>
 							<div class="form-group row">
-								<label for="holiday_ire">Please select the type of holiday you wish to request</label>
-								<select class="form-control" name="holiday_ire" id="holiday_ire" placeholder="please select your preferred type of holiday" type="text">
+								<label for="holiday_ire" class="col-sm-2">Please select the type of holiday you wish to take: </label>
+								<select class="form-control col-sm-10" name="holiday_ire" id="holiday_ire" placeholder="please select your preferred type of holiday" type="text">
                                     <option>Activity</option>
                                     <option>City Break</option>
                                     <option>Culture</option>
                                     <option>Wellness</option>
                                 </select>
 							</div>
+                            <div class="form-group row">
+								<label for="number_people" class="col-sm-2">Please select the number of people in your holiday party/family : </label>
+								<select class="form-control col-sm-10" name="number_people" id="number_people" placeholder="please select your preferred type of holiday" type="text">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5+</option>
+                                </select>
+							</div>
+                            <div class="form-group row">
+								<label for="transport_mode" class="col-sm-2">Please indicate your preferred mode of transport during your stay in Ireland : </label>
+								<select class="form-control col-sm-10" name="transport_mode" id="transport_mode" placeholder="please select your preferred type of holiday" type="text">
+                                    <option>Bicycle</option>
+                                    <option>Motor Bike</option>
+                                    <option>Car</option>
+                                    <option>Public Transport</option>
+                                    <option>Rail</option>
+                                    <option>Walking</option>
+                                </select>
+							</div>
 							<div class="form-group row">
-								<label class="col-2 for="message_ire">Message to Holiday in Ireland</label>
+								<label class="col-2 for="message_ire">Message to Holiday in Ireland Team</label>
 								<textarea class="col-10" rows="5" name="message_ire" id="message_ire" placeholder="enter your message to the Holiday in Ireland team"></textarea>
 								<div class="valid-feedback">
 								</div>
@@ -107,8 +129,6 @@
 			      </form>
         </div>
 	</section>
-
-
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col-sm">
