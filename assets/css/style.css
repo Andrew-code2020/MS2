@@ -3,6 +3,10 @@
 
 /*-----Style choice background #f0f8ff Writing #1a1a1a old color text color: #a8afb3 Alert #fff7f0---/*
 
+/*----General---*/
+.fixed-bottom{
+    position:inherit;
+}
 
 /*---Header Alert Bar----*/
 .alert-danger {
@@ -73,9 +77,42 @@ section {
 
 /*-----------------------------------learnaboutireland-------------------------------------------------------------*/
 
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
 h3{
     font-family: Recursive, sans-serif;
 }
+
 
 .history{
     padding-top:10px;
