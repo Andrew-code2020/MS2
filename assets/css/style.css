@@ -180,49 +180,9 @@ button {
   height: 100vh;
 }
 
-.activity {
-  background-image: url("../images/activity.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height:200px;
-  overflow:auto;
-}
-
-.culture {
-  background-image: url("../images/violin.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: sepia(20%);
-  height:200px;
-  overflow:auto;
-}
-
- .wellness
- {
-  background-image: url("../images/wellness.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: sepia(20%);
-  height:200px;
-  overflow:auto;
-}
-
-.cities
- {
-  background-image: url("../images/cities.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: sepia(20%);
-  height:200px;
-  overflow:auto;
-}
-
-.activity2, .cities2, .wellness2, .culture2 {
+.activity, .activity2, .cities, .cities2, .wellness, .wellness2, .culture, .culture2 {
     background-color: #f0f8ff;
+    color: #1a1a1a;
     height:75%;
     overflow:auto;
     
