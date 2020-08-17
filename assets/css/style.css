@@ -60,6 +60,7 @@ section {
   background-color: #f0f8ff;
   font-family: Recursive, sans-serif;
   color: #1a1a1a;
+  overflow:auto;
 }
 
 .jumbotron {
@@ -76,6 +77,8 @@ section {
 
 
 /*-----------------------------------learnaboutireland-------------------------------------------------------------*/
+
+
 
 .flip-card {
   background-color: transparent;
@@ -130,45 +133,6 @@ h3{
 .row {
   color: #1a1a1a;
   height: auto;
-}
-
-.history1 {
-  background-image: url("../images/historyireland3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: sepia(20%);
-  height:400px;
-  overflow:auto;
-}
-span{
-    background-color: #f0f8ff;
-}
-
-.geography1 {
-  background-image: url("../images/wildlife1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:400px;
-  overflow:auto;
-}
-
-.sport1 {
-  background-image: url("../images/sportireland.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height:400px;
-  overflow:auto;
-}
-
-.culture1 {
-  background-image: url("../images/culture.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height:400px;
-  overflow:auto;
 }
 
 
