@@ -215,6 +215,7 @@ Contact Us page (Right)
 
 #### Bugs
 * Galaxy 5S Jumbotron seems to overlay on top of the footer. Despite my best efforts I was unable to solve this. 
+* Fixed Top overlaying my alert bar
 
 ### Deployment
 * Deployment project on Github

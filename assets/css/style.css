@@ -8,7 +8,7 @@
     position:inherit;
 }
 
-/*---Header Alert Bar----*/
+/*---Alert Bar----*/
 .alert-danger {
   background-color: #fff7f0;
   color:#1a1a1a;
@@ -23,6 +23,16 @@
 .alert-danger a {
   color: #1a1a1a;
 }
+
+#topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 /*------------------------------------Header Nav Bar-------------------------------------------------*/
 
@@ -60,6 +70,7 @@ section {
   background-color: #f0f8ff;
   font-family: Recursive, sans-serif;
   color: #1a1a1a;
+  padding-top: 70px;
   overflow:auto;
 }
 
@@ -175,18 +186,24 @@ button {
   border: #a8afb3; /*-----May need to change border here----*/
 }
 
+h1{
+    text-align: center;
+    text-decoration: underline; 
+}
+
 /*---------------explore ireland----------------------------------------------------------*/
 #map {
-  height: 100vh;
+  height: 130vh;
 }
 
 .activity, .activity2, .cities, .cities2, .wellness, .wellness2, .culture, .culture2 {
     background-color: #f0f8ff;
     color: #1a1a1a;
-    height:75%;
+    height:100%;
     overflow:auto;
     
 }
+
 
 /*----------------------------------------Footer--------------------------------------------------------------*/
 
