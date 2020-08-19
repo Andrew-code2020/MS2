@@ -18,6 +18,7 @@
   margin-bottom: 0;
   border-color: #f0f8ff;
   border-radius: 0%;
+  overflow:auto;
 }
 
 .alert-danger a {
@@ -26,7 +27,12 @@
 
 .navbar-toggler-icon{
     background-color: #1a1a1a;
+    color: #fff7f0;
 }
+
+.navbar-nav .current{
+     background-color: #ff9999;
+ }
 
 #topnavbar {
     margin: 0;
