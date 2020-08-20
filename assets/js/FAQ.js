@@ -1,8 +1,15 @@
 $(document).ready(function () {
     $(".airports").hide();
+    $(".transport").hide();
+    $(".activityinfo").hide();
 });
 
-$(".fas fa-plus-circle").click(function() {
-  $( ".airports" ).fadeIn( "slow", function() {
+$(".card-body").click(function() {
+  $( ".transport" ).toggle( "slow", function() {
+  });
+});
+
+$(".card-body").click(function() {
+  $( ".activityinfo" ).toggle( "slow", function() {
   });
 });

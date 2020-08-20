@@ -206,8 +206,6 @@ Contact Us page (Right)
 *  Verify that message direction options exist in the drop down menu
 *  Verify that you can enter details into the Temple Lean Contact Us Form and hit Send My Fitness Message to Temple Lean!. Note the form is non functional at this time.
 
-
-
 #### Appearance differences on other devices
 * On small mobile devices such as phones the nav bar will collapse into a red "burger" icon.
 * The programming of the website allows it to adjust column widths on smaller devices and stack elements in a display to fit different browsers mentioned earlier and different devices mentioned earlier.
@@ -223,7 +221,8 @@ Contact Us page (Right)
 * Open link to project static website  https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
 
 ### Credits
-I consulted the following websites for inspiration and to learn how to implement certain features into my project; 
+* I consulted the folowing websites to learn about taking a holiday in Ireland https://www.discoveringireland.com/fly-to-ireland/
+* I consulted the following websites for inspiration and to learn how to implement certain features into my project; 
 * https://stackoverflow.com/
   * Features influenced
     * Background images
