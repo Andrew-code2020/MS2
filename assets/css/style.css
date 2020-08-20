@@ -3,14 +3,24 @@
 
 /*-----Style choice background #f0f8ff Writing #1a1a1a old color text color: #a8afb3 Alert #fff7f0---/*
 
-/*----General---*/
+/*--------------------------------General-------------------------------------------------*/
 .fixed-bottom{
     position:inherit;
 }
 
-/*---Alert Bar----*/
+/*-----------Header-----------------------------------------------------------------------*/
+
+header{
+    overflow: auto;
+} /*--Didn't work--*/
+
+nav {
+    overflow: auto;
+}
+
+/*-----------------------Alert Bar-------------------------------------------------------*/
 .alert-danger {
-  background-color: #fff7f0;
+  background-color: #ff9999;
   color:#1a1a1a;
   text-align: center;
   font-family: Recursive, sans-serif;
@@ -25,26 +35,9 @@
   color: #1a1a1a;
 }
 
-.navbar-toggler-icon{
-    background-color: #1a1a1a;
-    color: #fff7f0;
-}
 
-.navbar-nav .current{
-     background-color: #ff9999;
- }
+/*------------------------------------Nav Bar-------------------------------------------------*/
 
-#topnavbar {
-    margin: 0;
-}
-#topnavbar.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
-/*------------------------------------Header Nav Bar-------------------------------------------------*/
 
 .navbar-light {
   background-color: #f0f8ff;
@@ -67,6 +60,15 @@
 .navbar-custom {
   background-color: #f0f8ff;
 }
+
+.navbar-toggler-icon{
+    background-color: #1a1a1a;
+    color: #fff7f0;
+}
+
+.navbar-nav .current{
+     background-color: #ff9999;
+ }
 
 /*----Body-----*/
 body{
