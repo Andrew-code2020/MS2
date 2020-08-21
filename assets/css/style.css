@@ -32,7 +32,7 @@ nav {
 
 /*------------------------------------Nav Bar---------------------------------------------------------------------*/
 .navbar-color {
-  background-color: #f0f8ff;
+  background-color: #80C4FF;
   color: #1a1a1a;
   text-align: center;
   font-family: Recursive, sans-serif;
@@ -58,13 +58,13 @@ nav {
     color: #fff7f0;
 }
 
-.navbar-nav .current{
+.nav-link.current{
      background-color: #ff9999;
  }
 
 /*----Body-----*/
 body{
-    background-color: #f0f8ff;
+    background-color: #80C4FF;
     height:auto; 
 }
 
@@ -88,6 +88,11 @@ section {
 
 .Ireland-callout {
   background-color: #f0f8ff;
+}
+
+.undersection {
+ background-color: #80C4FF;
+ overflow:auto;
 }
 
 
@@ -217,7 +222,7 @@ h2{
 /*----------------------------------------Footer--------------------------------------------------------------*/
 
 footer {
-  background-color: #f0f8ff;
+  background-color: #80C4FF;
   color: #1a1a1a;
   font-family: Recursive, sans-serif;
   height:200px;
