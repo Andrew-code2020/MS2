@@ -3,11 +3,6 @@
 
 /*-----Style choice background #f0f8ff Writing #1a1a1a old color text color: #a8afb3 Alert #fff7f0---/*
 
-/*--------------------------------General---------------------------------------------------------------------*/
-.fixed-bottom {
-    position:inherit;
-}
-
 /*--------------------------------Header-----------------------------------------------------------------------*/
 
 header{
@@ -35,11 +30,8 @@ nav {
   color: #1a1a1a;
 }
 
-
 /*------------------------------------Nav Bar---------------------------------------------------------------------*/
-
-
-.navbar-light {
+.navbar-color {
   background-color: #f0f8ff;
   color: #1a1a1a;
   text-align: center;
@@ -82,17 +74,16 @@ section {
   background-color: #f0f8ff;
   font-family: Recursive, sans-serif;
   color: #1a1a1a;
-  padding-top: 225px;
-  overflow:auto;
 }
 
-.jumbotron {
+.hero-image {
   background-image: url("../images/geography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position:center;
   color: #1a1a1a;
-  height:100vh;
+  height:50vh;
+  width: 100%;
 }
 
 .Ireland-callout {
