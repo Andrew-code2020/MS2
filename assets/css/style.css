@@ -54,8 +54,7 @@ nav {
 }
 
 .navbar-toggler-icon{
-    background-color: #1a1a1a;
-    color: #fff7f0;
+    color: #1a1a1a;
 }
 
 .nav-link.current{
@@ -74,6 +73,7 @@ section {
   background-color: #f0f8ff;
   font-family: Recursive, sans-serif;
   color: #1a1a1a;
+  overflow:scroll;
 }
 
 .hero-image {
@@ -90,10 +90,10 @@ section {
   background-color: #f0f8ff;
 }
 
-.undersection {
+/*-.undersection {
  background-color: #80C4FF;
- overflow:auto;
-}
+ 
+} ----*/
 
 
 /*-----------------------------------learnaboutireland-------------------------------------------------------------*/
@@ -233,7 +233,6 @@ footer {
 
 .footer-media i {
   font-size: 36px;
-  padding-left: 150px;
   color: #1a1a1a;
 }
 
