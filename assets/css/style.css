@@ -5,15 +5,11 @@
 
 /*--------------------------------Header-----------------------------------------------------------------------*/
 
-header{
-    overflow: auto;
-} /*--Didn't work--*/
-
 nav {
     overflow: auto;
 }
 
-/*--------------------------------------------Alert Bar-------------------------------------------------------*/
+/*--------------------------------------------General Alert Bar-------------------------------------------------------*/
 .alert-danger {
   background-color: #ff9999;
   color:#1a1a1a;
@@ -66,7 +62,21 @@ body{
     background-color: #f0f8ff;
 }
 
-/*---Section -----------------------------------------------------------*/
+/* ----------index page ------------ */
+
+ul {
+    list-style-type: none;
+}
+
+span{
+    background-color:  #f0f8ff;
+}
+
+.guitar, .bridge{
+    object-fit:cover;
+}
+
+/*---General Section -----------------------------------------------------------*/
 
 section {
   background-color: #f0f8ff;
@@ -80,12 +90,21 @@ section {
     padding-top: 110px;
 }
 
+.sectionpaddingfaq
+{
+    padding-top: 80px;
+}
+
+
+
+
 .hero-image {
   background-image: url("../images/geography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position:center;
   color: #1a1a1a;
+  text-shadow:#ffffff;
   height:50vh;
   width: 100%;
 }
@@ -203,6 +222,8 @@ h2{
     text-align: center;
     text-decoration: underline; 
 }
+
+
 
 /*---------------explore ireland----------------------------------------------------------*/
 #map {
