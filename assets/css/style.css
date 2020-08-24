@@ -74,6 +74,14 @@ span{
 
 .guitar, .bridge{
     object-fit:cover;
+    width: 80%; 
+    height: 300px; 
+    border-radius: 21px 21px 0 0; 
+    position: center;
+}
+
+.guitar2, .bridge2{
+    width:100%
 }
 
 /*---General Section -----------------------------------------------------------*/
@@ -251,7 +259,7 @@ footer {
   background-color: #80C4FF;
   color: #1a1a1a;
   font-family: Recursive, sans-serif;
-  height:200px;
+  height:auto;
   padding-top: 10px;
   padding-bottom: 20px;
 }
