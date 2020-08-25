@@ -8,17 +8,22 @@ The key reasons for producing the website were to;
 
 - help potential visitors learn about Ireland as a holiday destination
 - help new potential visitors learn easily about the type of holidays that are available in Ireland
-- help new potential users connect and communicate easily with the Team Ireland and make a holiday booking
-- help new potential users easily follow Ireland Social Media accounts
+- help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland
+- help new potential users easily follow Ireland on various Social Media accounts
 - help the Ireland attract tourists
 
-At the outset the minimum viable product was determined to be a communication platform between the operator(s) of Irelands top tourism destinations and potential tourists.
+At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source for basic information about a holiday in Ireland at the best tourist destinations.
 It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior experience of Ireland as a tourist destination. Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
-This information was incredibly valuable during the construction of wireframes for the website. At the outset conventional web design features were favoured because we wanted the first time user to feel like they were still in a familiar place on the web. The vision for the project was to have a website that displayed basic information on Irelands top tourist destination but that offered quick options to open a communication channel with Team Ireland to help the user make booking. Further objectives included implementing interactive features on the web site to to help the user get a feel in touch with Ireland
+This information was incredibly valuable during the construction of wireframes for the website. 
+At the outset conventional web design features were favoured because we wanted everyone from the novice to accompolished web user to feel like they were still in a familiar place on the web. 
+The vision for the project was to have a website that displayed basic information on Irelands top tourist destination with quick options to open a communication channel with the Holiday in Ireland team to help the user make a booking. 
+Further objectives included;
+* implementing interactive features on the web site to help the user get a feel in touch with Ireland
+* allow the user to locate holiday areas in Ireland
 
 ###### User Story 1
 
-I am a currently researching holiday destinations. A friend recommends that I check out Ireland. I search for Ireland on the web and go to contact us and just as I am about to email them through their contact us section I see the information on the left of the contact us section. I note the information and attend within those hours.
+I am a currently researching holiday destinations. A friend recommends that I check out the website title "Holiday in Ireland". I search through Holiday in Ireland. In particular I click on Learn about Ireland and the FAQ. I use the toggle and card flip features to learn about Ireland and discover some basic infomration.
 
 ###### User Story 2
 
