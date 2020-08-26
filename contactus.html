@@ -10,9 +10,7 @@
 </head>
 
 <body>
-	<header>
-		<!--Navigation-->
-		<div class="fixed-top nav-color">
+	<div class="fixed-top nav-color">
 			<nav class="site-header sticky-top py-1 navbar-color navbar-expand-lg">
 				<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"> <i class="fas fa-cog"></i></span>
@@ -20,10 +18,11 @@
 				<div class="container flex-column flex-md-row justify-content-between collapse navbar-collapse"
 					id="navbarSupportedContent">
 					<a class="nav-link" href="index.html"><i class="fas fa-home"> Home </i></a>
-					<a class="nav-link" href="learnaboutireland.html">Learn about
-						Ireland<i class="fab fa-leanpub"></i></a>
-					<a class="nav-link" href="exploreireland.html">Explore Ireland<i class="fas fa-hiking"></i></a>
-					<a class="nav-link" href="faq.html">FAQ <i class="far fa-question-circle"></i></a>
+					<a class="nav-link" href="learnaboutireland.html"> <i class="fab fa-leanpub"></i> Learn about
+						Ireland</a>
+					<a class="nav-link" href="exploreireland.html"><i class="fas fa-hiking"></i> Explore Ireland</a>
+					<a class="nav-link" href="faq.html"> <i class="far fa-question-circle"></i> FAQ</a>
+                    <a class="nav-link current" href="contactus.html"><i class="fas fa-envelope-square"></i> Contact Us</a>
 				</div>
 			</nav>
 		</div>
@@ -37,7 +36,7 @@
 			<form class="contactForm" id="contactForm" onsubmit="return sendMail(this);">
 				<div class="form-group row">
 					<label for="from_name" class="col-sm-2 col-form-label">Full Name : </label>
-					<div class="col-sm-4">
+                    <div class="col-sm-10">
 						<input type="text" name="from_name" id="from_name" class="form-control" placeholder="Full Name">
                        </div>
 					</div>
@@ -68,8 +67,8 @@
                                 </select>
 						</div>
 						<div class="form-group row">
-							<label for="transport_mode" class="col-sm-10">Please indicate your preferred mode of transport during your stay in Ireland : </label>
-							<select class="form-control col-sm-3" name="transport_mode" id="transport_mode">
+							<label for="transport_mode" class="col-sm-2">Please indicate your preferred mode of transport during your stay in Ireland : </label>
+							<select class="form-control col-sm-10" name="transport_mode" id="transport_mode">
                                     <option>Bicycle</option>
                                     <option>Motor Bike</option>
                                     <option>Car</option>
@@ -107,44 +106,41 @@
 							</div>
 						</div>
 			</form>
-					<div class ="container satellite">
-                    <img src="assets/images/irelandsatellitelights.jpg">
-					</div>
 				</div>
 			</div>
 	</section>
 	<footer class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<h5>Social Media</h5>
-				<a class="social-media" href="https://www.instagram.com/andrew_burns_moves/"
-					target="_blank"><i class="fab fa-instagram-square"></i></a>
-				<a class="social-media" href="https://www.facebook.com/andrewburnsmoves"
-					target="_blank"><i class="fab fa-facebook-square"></i></a>
-				<a class="social-media" href="https://twitter.com/aburnsmoves"
-					target="_blank"><i class="fab fa-twitter"></i></a>
-				<a class="social-media"
-					href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
-					target="_blank"><i class="fab fa-youtube"></i></a>
-			</div>
-			<div class="col-sm-4">
-				<h5>Contact Us</h5><a class="footer-media"
-					href="contactus.html"><i class="fas fa-envelope-square"></i></a>
-				<p>
-					Need to get in touch? Click the icon and drop us an email
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h4>FAQ</h4> <a class="footer-media" href="faq.html"
-					target="_blank"><i class="far fa-question-circle"></i>
-				</a>
-				<p>
-					Have a question about Ireland. Perhaps our frequently asked
-					questions will help you find the answer you're loking for
-				</p>
-			</div>
-		</div>
-	</footer>
+				<div class="row">
+					<div class="col-sm-4">
+						<h5>Developed with</h5>
+						<ul>
+							<li><a href="https://getbootstrap.com/" target="_blank"><i class="fab fa-bootstrap footercredits"></i>
+									Bootstrap</a></li>
+							<li><a href="https://jquery.com/" target="_blank"><i class="fab fa-js"></i> JavaScript &
+									jQuery</a></li>
+                            <li><a href="https://codeinstitute.net/" target="_blank"><i class="fas fa-code"></i> Code Institute</a></li>
+						</ul>
+					</div>
+					<!--Divider - future content-->
+                    <div class="col-sm-4">
+					</div>
+                    <!--Social Media-->
+					<div class="row">
+						<div class="col-12">
+							<h5>Social Media</h5>
+						</div>
+						<a class="social-media" href="https://www.instagram.com/andrew_burns_moves/"
+							target="_blank"><i class="fab fa-instagram-square"></i></a>
+						<a class="social-media" href="https://www.facebook.com/andrewburnsmoves"
+							target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a class="social-media" href="https://twitter.com/aburnsmoves"
+							target="_blank"><i class="fab fa-twitter"></i></a>
+						<a class="social-media"
+							href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
+							target="_blank"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+			</footer>
 	<script src="https://kit.fontawesome.com/ba4b42ff38.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 	</script>

@@ -1,7 +1,7 @@
 /*-----Fonts-----*/
 @import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 
-/*-----Style choice background #f0f8ff Writing #1a1a1a old color text color: #a8afb3 Alert #fff7f0---/*
+/*-----Style choice background #f0f8ff (light blue) stronger blue #80C4FF  Writing #1a1a1a old color text color: #a8afb3 Alert #fff7f0---/*
 
 /*--------------------------------Header-----------------------------------------------------------------------*/
 
@@ -53,7 +53,12 @@ nav {
 }
 
 .nav-link.current{
-     background-color: #ff9999;
+     background-color:#F0BB32;
+ }
+
+ i:hover, a:hover {
+     color: #1236A3;
+     text-decoration: none;
  }
 
 /*----Body-----*/
@@ -93,14 +98,24 @@ section {
   overflow-y:scroll;
 }
 
-.sectionpadding
+.sectionpaddingfaq
 {
     padding-top: 110px;
+    padding bottom: 50px;
 }
+
+.sectionpaddinglearnaboutireland {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-y:scroll;
+}
+
 
 .sectionpaddingfaq
 {
     padding-top: 80px;
+    padding-bottom: 50px;
+    overflow-y:scroll;
 }
 
 .sectionpaddingexplore{
@@ -112,9 +127,9 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   position:center;
-  color: #1a1a1a;
+  color: #ffffff;
   text-shadow:#ffffff;
-  height:50vh;
+  min-height:50vh;
   width: 100%;
 }
 
@@ -272,8 +287,8 @@ footer {
 }
 
 
-.footer-media i {
-  font-size: 36px;
+li a i {
+  font-size: 16px;
   color: #1a1a1a;
 }
 
@@ -281,6 +296,10 @@ footer {
   font-size: 36px;
   padding-right: 30px;
   color: #1a1a1a;
+}
+
+a {
+    color:#1a1a1a
 }
 
 .footer-media i:hover {
