@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".wellness2").hide();
     $(".cities2").hide();    
 });
-
+/*---top picture---*/
 $(".activity" )
   .mouseenter(function() {
     $(".activity2").show();
@@ -12,7 +12,7 @@ $(".activity" )
   .mouseleave(function() {
     $(".activity2").hide();
   });
-
+/*---middle picture 1---*/
 $(".culture" )
   .mouseenter(function() {
     $(".culture2").show();
@@ -20,7 +20,7 @@ $(".culture" )
   .mouseleave(function() {
     $(".culture2").hide();
   });
-
+/*---middle picture 2---*/
   $(".wellness" )
   .mouseenter(function() {
     $(".wellness2").show();
@@ -28,7 +28,7 @@ $(".culture" )
   .mouseleave(function() {
     $(".wellness2").hide();
   });
-
+/*---bottom picture 1---*/
   $(".cities")
   .mouseenter(function() {
     $(".cities2").show();

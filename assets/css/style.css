@@ -295,10 +295,11 @@ li a i {
   color: #1a1a1a;
 }
 
-a {
-    color:#1a1a1a
+.social-media i:hover{
+   color: #1236A3;
+   text-decoration: none; 
 }
 
-.footer-media i:hover {
-  color: #fff7f0;
+a {
+    color:#1a1a1a
 }

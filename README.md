@@ -101,50 +101,57 @@ Mobile Device wireframe
 - Hover
 - Icons
 - Contact Us Form wired up with Email JS
+- Email JS
 - Google Maps API 
 - Jquery Toggle
 - Jquery mouse enter mouse leave
 
 ##### Existing Features
 
-- Internal links to different parts of the Temple Lean website
-- External links that open a new to different platforms such as social media and Monthly Fitness Challenges
-- Header - Contains our Alert Bar and Nav bar
-- Easy navigation - The Navbar at the top of each page is similar to conventional nav bars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this nav bar across each page for ease of navigation.
-- Alert Bar - Normally a special offer sales bar with the ongoing COVID-19 pandemic we decided to direct our users to our online fitness videos
-- Footer - Linked to Contact Us page, our free monthly fitness challenge and Social Media platforms
-- Section - The middle section content changes on each page and gives basic information on each Temple Lean service
-- Jumbotron - The eye catching landing page designed to convey that the user has arrived on the virtual gym floor of Temple Lean
+- Internal links to different parts of the Holiday in Ireland website
+- External links that open a new to different platforms such as social media, the government of Ireland website and links that are not developed yet due to a lack of permissions
+- Header - Contains our Alert Bar (where appropriate) and Navbar
+- Easy navigation - The Navbar at the top of each page is similar to conventional navbars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page for ease of navigation. The navbar collapses on mobile devices to a single cog wheel. The navbar also includes a current class in yellow so the user knows what page they are on with one look.
+- Alert Bar - Appears only in the FAQ section and gives a direct link to the government of Ireland COVID-19 travel advice page for the benefit of users as they may need this information when planning a holiday in Ireland. 
+- Footer - Linked to some pages we use to develop the  website and  conatins direct links to the developers Social Media platforms. Holiday in Ireland Social Media specific to this site does not exist but is in future plans.
+- Section - The middle section content changes on each page and gives basic information on aspect of the Holiday in Ireland site.
+- Hero Image - The eye catching landing page designed to convey that the user has arrived on a virtual piece of Ireland. 
 - Dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information. We opted to display the class type and class times immediately with price information available in the dropdown menu.
-- Modal - The Modal allows the user to access further information on our trainers. It pops up and displays further background information about them giving the user a feeling they know the trainers before they come to Temple Lean.
-- Hover - icons, internal and external links all turn green when the cursor hovers over them. This lets the user know that there is more information they can access here.
-- Icons - font awesome icons were used to add style and an intuitive feel to the user experience
-- Search Bar - We wanted people to be able to search our page for content. This feature is non functional right now.
+- Hover - icons, internal and external links all turn blue when the cursor hovers over them. This lets the user know that there is more information they can access here.
+- Icons - font awesome icons were used to add style and an intuitive feel to the user experience 
 - Contact Form - We wanted people to be able to send us basic information and a message. This feature is non functional right now.
+- jQuery toggle - The buttons on Learn about Ireland and FAQ page allow the user to click on the button to reveal more information about holidays in Ireland.
+- jQuery mouse enter - The cards on Learn about Ireland and Explore Ireland pages allow the user to hover the cursor over a card to reveal more information or take the next step and click on a button to reveal more content about holidays in Ireland.
+- jQuery show and hide - The cards on Learn about Ireland and Explore Ireland pages make use of show and hide features to allow the user control over when content from the Holiday in Ireland page is revealed to them.
+- JavaScript - Google Maps API so the user can locate where in Ireland their chosen holiday is
+- JavaScript - Contact form linked up by email JS so that the user can send the Holiday in Ireland a quick message with there booking preferences
+
 
 ##### Features Left to Implement
 
-- Live chat
-- Blog
-- Countdown - Current spaces in the class
-- FAQ - Featuring gym etiquette and rules
-- Pay for membership and classes online
+- Clock API to show tourists the time difference and the current time in Ireland
+- Weather API to show tourists the time difference and the current time in Ireland
+- Blog of different places recommended by Holiday in Ireland
+- Live chat bubble
+- Pay directly for a holiday rather than requesting a booking
 - Search Engine Optimisation
 - Analytics that show user traffic flow
-- Testimonials - Members and Classes
+- Testimonials - Holiday users
 
 ### Technologies Used
 
 - HTML5 - Used for structure and content of website
-- CSS3 - Used for personalised styling of website
-- Java script
-- JQuery CDN "https://code.jquery.com/jquery-3.5.1.js"
+- CSS3 - Used for personalised custom built styling of website
+- JavaScript - Used for email JS and Google Maps API
+- jQuery 
+    - Used to deliver interactive features such as toggle and show and hide 
+    - Wesbite https://jquery.com/
 - Bootstrap
   - Website https://getbootstrap.com/
   - Used to import generic styling
 - Github and Gitpod
-  - Website of Github repository https://github.com/Andrew-code2020/CI-MS-1-Lean-Temple
-  - Used to construct and host the website
+  - Website of Github repository https://andrew-code2020.github.io/MS2/
+  - Used to construct host and deploy the website
 - Font Awesome
   - Website https://fontawesome.com/
   - Used to import icons
@@ -175,88 +182,92 @@ Testing Browsers and screens you tested it on
 
 Alert Bar
 
-- Go to the Temple Lean "Home/Landing" page or any other Temple Lean page.
-- Verify that by clicking on the video icon that a new tab opens and a youtube channel appears.
+- Go to the Holiday in Ireland "FAQ" page.
+- Verify that by clicking on the infomration icon that a new tab opens and a government of Ireland travel advice website appears.
 
 Nav Bar
 
-- Go to the Temple Lean "Home/Landing" page or any other Temple Lean page.
-- Verify that the home bar is highlighted red.
-- Verify that this current page feature of highlight red occurs across all pages in our nav bar by clicking each one in turn.
+- Go to the Holiday in Ireland "Home/Landing" page or any other Temple Lean page.
+- Verify that the home bar is highlighted yellow.
+- Verify that this current page feature of highlight yellow occurs across all pages in our navbar by clicking each one in turn.
 
 ##### Section
-
 Contact us
 
-- Go to the Temple Lean "Home/Landing" page.
-- Click on the "Contact Us Button".
-- Verify that we are directed to the contact us page opens with basic gym information on the left and a form to fill out on the right
-- When you fill out the form if you forget a required section eg name and email then a message "please fill out this field appears".
-- The contact us form is non functional at this time.
+- Go to the Holiday in Ireland "Home/Landing" page.
+- Click on the "Contact Us" section of the Navbar.
+- Verify that we are directed to the contact us page which opens with a form to fill out.
+- When you fill out the form and hit the "Submit up your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
+- The contact us form is functional at this time and completed forms will be sent to burnsad@tcd.ie.
+- The form is coded such that it will empty when the "Submit up your holiday in Ireland" button is pressed
 
-Fitness challenge
-
-- Go to the "Home/Landing" page
-- Click on the download fitness challenge button
-- Verify that a new tab opens and pdf of this months fitness challenge appears
-- Across each of the web pages when you see a download fitness challenge button or icon then you may verify that clicking on it opens a new tab with the same fitness challenge pdf.
 
 ##### Footer
 
-Contact us
+Social Media
 
-- Go to the Temple Lean "Home/Landing" page.
-- Scroll down to the Footer.
-- Click on the "Contact Us icon" in the bottom left corner.
-- Verify that we are directed to the contact us page which opens with basic gym information on the left and a Contact us form to fill out on the right.
-- Verify that you can choose a fitness message option.
-- Across each of the Temple Lean website pages when you see a Contact us icon or button you may verify that by clicking on that it opens the Contact us page.
+- Go to the "Home/Landing" or any other page on the Holiday in Ireland website
+- Scroll down to the Footer
+- Click on any social media icon
+- Verify that a new tab opens on correct social media site
+- The social media sites are the developers sites because the Holiday in Ireland wesbite doe not have stand alone social media.
 
-Fitness challenge
+Developed with
 
 - Go to the "Home/Landing" page
 - Scroll down to the Footer
-- Click on the download icon
-- Verify that a new tab opens and pdf of this months fitness challenge appears
-
-Links to Social Media
-
-- Go to the "Home/Landing" page
-- Scroll down to the Footer
-- Click on each social media icon
-- Verify that a new tab opens and that the relevant social media platform and account appears
+- Click on the bootstrap, jQuery or Code institute icons
+- Verify that a new tab opens and the appropriate website opens
 
 ##### Header and Footer
 
-- Across each of the Temple Lean Web pages you may verify that the Header and the Footer have the same features outlined above
+- Across each of the Holiday in Ireland Web pages you may verify that the Header and the Footer have the same features outlined above.
+- There is only one exception and that is the FAQ page where an alert bar is added above the main navigation bar to provide users with government of Ireland travel advice.
 
-#### Fitness Classes page:
+#### Learn about Ireland page:
 
-Fitness Classes
+Learn about Ireland
 
-- Go to the "Fitness Classes" page
-- Verify that when you click each dropdown menu more information appears for each of the following services
-  - Free Weight Altar
-  - Cardio Chapel
-  - Kettlebell & Grit Class
-  - Yin Yoga & Power Pilates
+- Go to the "Learn about Ireland" page
+- Verify that when you  hover over each picture the picture flips over and content buttons appear 
+- Click  on each button to toggle the appearance of further information on each of the following topics
+  - History (Heading)
+    - 19th Century (Button)
+    - 20th Century (Button)
+    - 21st Century (Button)
+  - Geography (Heading)
+    - Dimensions (Button)
+    - Climate (Button)
+    - Wildlife (Button)
+  - Sport (Heading)
+   - GAA (Button)
+   - Soccer (Button)
+   - Rugby (Button)
+  - Culture (Heading)
+   - Music (Button)
+   - Language (Button)
+   - Science (Button)
 
-#### Trainers page:
+#### Explore Ireland page:
 
-Trainers page
+Explore Ireland page
 
-- Go to the "Trainers" page
-- Verify that when you click on each button for more information the modal appears for each of the following trainers "Andrew Burns & Julie O' Leary"
-- You may verify that information is different but the underlying structure of the modals information is the same
+- Go to the "Explore Ireland" page
+- Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on right hand side
+- You may verify that information is different on each card
 
-#### Contact Us page:
+- Go to the "Explore Ireland" page
+- Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on right hand side
+- You may verify the marker by clicking on the appropriate section of the map. By clicking on the map you will zoom in on the location you are looking for.
 
-Contact Us page (Left)
+#### FAQ page:
+
+FAQ page 
 
 - Go to the "Contact Us" page
 - Verify that when you click on the map pin that a new tab opens to google maps with the location of the gym. This is a fake location.
 
-Contact Us page (Right)
+
 
 - Go to the "Contact Us" page
 - Verify that when you enter details into the Temple Lean Contact Us Form that a name and email address are required
