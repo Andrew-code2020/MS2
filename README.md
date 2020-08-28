@@ -92,17 +92,18 @@ Mobile Device wireframe
 - Internal links
 - External links
 - Header
-- Nav bar
+- Navbar
 - Alert Bar
 - Footer
 - Section
-- Jumbotron
 - Dropdown Menu
-- Modal
+- Flip card
 - Hover
 - Icons
-- Search Bar
-- Contact Form
+- Contact Us Form wired up with Email JS
+- Google Maps API 
+- Jquery Toggle
+- Jquery mouse enter mouse leave
 
 ##### Existing Features
 
