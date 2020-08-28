@@ -73,9 +73,6 @@ ul {
     list-style-type: none;
 }
 
-span{
-    background-color:  #f0f8ff;
-}
 
 .guitar, .bridge{
     object-fit:cover;
@@ -127,8 +124,8 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   position:center;
-  color: #ffffff;
-  text-shadow:#ffffff;
+  color: hsl(0, 0%, 100%);
+  text-shadow:2px 2px#1a1a1a;
   min-height:50vh;
   width: 100%;
 }
