@@ -134,7 +134,7 @@ Mobile Device wireframe
 - Blog of different places recommended by Holiday in Ireland
 - Live chat bubble
 - Pay directly for a holiday rather than requesting a booking
-- Search Engine Optimisation
+- Search function in Navbar
 - Analytics that show user traffic flow
 - Testimonials - Holiday users
 
@@ -163,7 +163,8 @@ Mobile Device wireframe
 
 Testing Browsers and screens you tested it on
 
-- I tested the website by copying and pasting the Github pages link into Chrome and Edge Browsers
+- I tested the website by copying and pasting the Github pages link https://andrew-code2020.github.io/MS2/ into Chrome and Edge Browsers
+- I pressed control+shift+I to access developer tools in the Chrome Browser and checked the web pages responsiveness
 - I used the chrome developer tools to test that the websites appearance and functionality was available across multiple devices listed below;
   - Moto G4
   - Galaxy S5
@@ -175,8 +176,6 @@ Testing Browsers and screens you tested it on
   - iPhone X
   - iPad
   - iPad Pro
-
-#### Home/Landing page:
 
 ##### Header
 
@@ -190,17 +189,6 @@ Nav Bar
 - Go to the Holiday in Ireland "Home/Landing" page or any other Temple Lean page.
 - Verify that the home bar is highlighted yellow.
 - Verify that this current page feature of highlight yellow occurs across all pages in our navbar by clicking each one in turn.
-
-##### Section
-Contact us
-
-- Go to the Holiday in Ireland "Home/Landing" page.
-- Click on the "Contact Us" section of the Navbar.
-- Verify that we are directed to the contact us page which opens with a form to fill out.
-- When you fill out the form and hit the "Submit up your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
-- The contact us form is functional at this time and completed forms will be sent to burnsad@tcd.ie.
-- The form is coded such that it will empty when the "Submit up your holiday in Ireland" button is pressed
-
 
 ##### Footer
 
@@ -224,7 +212,13 @@ Developed with
 - Across each of the Holiday in Ireland Web pages you may verify that the Header and the Footer have the same features outlined above.
 - There is only one exception and that is the FAQ page where an alert bar is added above the main navigation bar to provide users with government of Ireland travel advice.
 
-#### Learn about Ireland page:
+##### Section
+
+- The section element changes it's content depending on which page you are on.
+
+#### Home/Landing page
+
+#### Learn about Ireland page
 
 Learn about Ireland
 
@@ -260,30 +254,37 @@ Explore Ireland page
 - Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on right hand side
 - You may verify the marker by clicking on the appropriate section of the map. By clicking on the map you will zoom in on the location you are looking for.
 
-#### FAQ page:
+#### FAQ page
 
-FAQ page 
+FAQ 
 
-- Go to the "Contact Us" page
-- Verify that when you click on the map pin that a new tab opens to google maps with the location of the gym. This is a fake location.
+- Go to the "FAQ" page
+- Verify that when you click on the toggle button more information appears.
+- The information is almost entirely fictional. The place names are real but the prices and activites are made up.
 
+#### Contact Us
 
+Contact us
 
-- Go to the "Contact Us" page
-- Verify that when you enter details into the Temple Lean Contact Us Form that a name and email address are required
-- Verify that message direction options exist in the drop down menu
-- Verify that you can enter details into the Temple Lean Contact Us Form and hit Send My Fitness Message to Temple Lean!. Note the form is non functional at this time.
+- Go to the Holiday in Ireland "Home/Landing" page.
+- Click on the "Contact Us" section of the Navbar.
+- Verify that we are directed to the contact us page which opens with a form to fill out.
+- When you fill out the form and hit the "Submit up your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
+- The contact us form is functional at this time and completed forms will be sent to burnsad@tcd.ie.
+- The form is coded such that it will empty when the "Submit up your holiday in Ireland" button is pressed
 
 #### Appearance differences on other devices
 
-- On small mobile devices such as phones the nav bar will collapse into a red "burger" icon.
-- The programming of the website allows it to adjust column widths on smaller devices and stack elements in a display to fit different browsers mentioned earlier and different devices mentioned earlier.
+- On small mobile devices such as phones the navbar will collapse into a black cog wheel icon.
+- The programming of the website allows it to adjust column widths on smaller devices and stack elements in a display to fit different browsers mentioned earlier and different devices mentioned earlier. The most obvious examples are the navbar which becomes a drop down menu and stacks on top of itself and the footer which stacks on top of itself and allows the user to scroll down. 
 - The Project was built with mobile first design principles
 
 #### Bugs
 
 - Galaxy 5S Jumbotron seems to overlay on top of the footer. Despite my best efforts I was unable to solve this.
-- Fixed Top overlaying my alert bar
+- Fixed Top overlaying my alert bar. During develpment I played around with a fixed top. At first the Alert Bar would disappear behind the Navbar. Then as I corrected the code the alert bar came in on top of the navbar but this would then overlay onto the section of each page. I used padding and height settings to solve this problem but I also changed the Navbar to a sticky-top. I am unsure whether the sticky-top class changed things very much. I did a lot of refining with heights and padding to get the website to render the way it is now.
+- Fixed Bottom I deployed a fixed bottom for the footer early in the development process. Unfortunately this overlayed content
+- On the learn about Ireland page when you hover the cursor over the card and then toggle any of the buttons you will notice that unless you toggle the same button to "close" the content before moving onto the next button will simple add it's content underneath. This is a bug that needs to be resolved in future development. 
 
 ### Deployment
 
