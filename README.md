@@ -1,6 +1,15 @@
-# Ireland Holiday Destination
+# Holiday in Ireland Destination
 
-Code institute milestone project 2 - Construct a Holiday site that calls on the Google Maps API and/or the Google Places API (or similar) to allow users to search for their next holiday destination
+The Holiday in Ireland website is designed to people at home in Ireland and abroad find four types of holiday;
+
+1. Activity 
+2. Culture
+3. Wellness
+4. City Breaks. 
+
+The problem that we are trying to solve is that current holiday websites in Ireland offer too many types of holidays. We want to slim the offer down and focus
+on these four strategically valuable markets. We have designed the website to offer quick links to the best quality holidays in these four areas. The success
+of this website is that the user is able to locate the holiday they want quickly and easily without having to sift through the large amounts of offers on other sites.  
 
 ### UX
 
@@ -12,48 +21,69 @@ The key reasons for producing the website were to;
 - help new potential users easily follow Ireland on various Social Media accounts
 - help the Ireland attract tourists
 
-At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source for basic information about a holiday in Ireland at the best tourist destinations.
-It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior experience of Ireland as a tourist destination. Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
+At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source for basic information about holidays in Ireland at the best tourist destinations.
+It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior experience of Ireland as a tourist destination. 
+Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 At the outset conventional web design features were favoured because we wanted everyone from the novice to accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that displayed basic information on Irelands top tourist destination with quick options to open a communication channel with the Holiday in Ireland team to help the user make a booking. 
 Further objectives included;
-* implementing interactive features on the web site to help the user get a feel in touch with Ireland
-* allow the user to locate holiday areas in Ireland
+- implementing interactive features on the web site to help the user feel in touch with Ireland
+- allow the user to locate holiday areas in Ireland
+- allow the user to learn some basic information about Ireland
+
 
 ###### User Story 1
 
-I am a currently researching holiday destinations. A friend recommends that I check out the website title "Holiday in Ireland". I search through Holiday in Ireland. In particular I click on Learn about Ireland and the FAQ. I use the toggle and card flip features to learn about Ireland and discover some basic infomration.
+I am a currently researching holiday destinations. A friend recommends that I check out a website named "Holiday in Ireland". I search the web find the Holiday in Ireland website. In particular I click on Learn about Ireland. I hover my mouse over the pictures on the page and card flip features reveals buttons 
+that allow me to toggle through information on different aspects of Ireland and discover some basic information.
 
 ###### User Story 2
 
-I am new to the area and I am interested in checking out/attending a local fitness class. I browse the web and find Temple Lean's location listed on google maps and click on their website. I click on the fitness classes page and see the initial information on their fitness classes web page. I click the dropdown menu to check their prices and membership information.
+I want to book an activity holiday in Ireland. I browse the web and find Holiday in Ireland. I click on the contact us page fill out the form specifying the the paramters of my activity holiday and hit send.
 
 ###### User Story 3
 
-I normally attend a yin joga class at Temple Lean on Monday at 6pm. This week I won't be able to make it due to a last minute emergency. I quickly log onto the Temple Lean website go to contact us. I input my information on the form select 'message for Julie' on the options menu and hit send my fitness message to Temple Lean.
+I am researching culture holiday locations in Ireland. I log onto the Holiday in Ireland website and click explore Ireland. As I hover over the Violin flip card the google map markers that are relevant to culture appear.
 
 ###### User Questions
 
 - Where am I?
-  - On each page the Nav Bar highlights that page in red. This helps you locate where you are on the Temple Lean site
+  - On each page the Navbar highlights that page in yello. This helps you locate where you are on the Holiday in Ireland site
 - How did I get here?
-  - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Temple Leans Free Monthly Fitness challenge or it's social media platforms.
-  - The nav bar and footer are the exact same on each page and with current page highlighted red in the nav bar the user is able to easily identify where they came from.
-  - This alert bar where a COVID-19 warning has a video link which opens up a new tab so the user does not forget which website they accessed the content from.
+  - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Holiday in Ireland social media platforms. The platforms are currently connected to the developers account because the Holiday in Ireland social media accounts do not exist 
+  - The navbar and footer are the exact same on each page and with current page highlighted yellow in the nav bar the user is able to easily identify where they came from.
+  - This alert bar on FAQ page has COVID-19 alert providing users with the most up to date travel information from the Government of Ireland.
 - What can I do here?
-  - The user is invited clearly to click on and then access various features of the Temple Lean website.
+  - The user is invited clearly to click on and then access various features of the Holiday in Ireland website. 
+  - This occurs in the following places;
+     - navbar with the hover feature
+     - Footer via the social media icons
+     - the contact us page Submit up your holiday in Ireland form button
+     - the buttons under the flip cards toggle to reveal basic information 
+     - the user can also click on the bottom left footer icons to see how the website was made
+  - The flip cards on the Learn about Ireland and Explore Ireland pages allow the user to hover the mouse over the cards revealing features whereby the user may access further information.
 - Where can I go from here?
-  - The nav bar and footer are the exact same on each page and with the current page highlighted red in the nav bar the user is able to easily identify where they are and where they can go from here. The green hover feature is also designed to indicate to the user that they can click on this icon/button/word in navbar and access further content.
+  - The navbar and footer are the exact same on each page (except the FAQ page where an alert bar offers a link to further information on travel advice) and with the current page highlighted yellow in the navbar the user is able to easily identify where they are and where they can go from here. 
+  - The blue hover feature is also designed to indicate to the user that they can click on this icon/button/word in navbar and access further content.
 
-* Original Wireframe link - https://marvelapp.com/22c13906
+* Original Wireframe link - 
 
 Route to wireframe pics in github repository
 
-- README docs/wf-pic-1.jpg
-- README docs/wf-pic-2.jpg
-- README docs/wf-pic-3.jpg
-- README docs/wf-pic-4.jpg
+Desktop wireframe
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
+
+Mobile Device wireframe
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
+- README docs/.jpg
 
 ### Features
 
