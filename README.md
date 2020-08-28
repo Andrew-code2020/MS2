@@ -69,21 +69,21 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
 
 * Original Wireframe link - 
 
-Route to wireframe pics in github repository
+Route to wireframe pics in github repository https://marvelapp.com/67bec93
 
 Desktop wireframe
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
+- assets/README docs/desktop/landingpagedesktop.png
+- assets/README docs/desktop/learnaboutirelanddesktop.png
+- assets/README docs/desktop/exploreirelanddesktop.png
+- assets/README docs/desktop/faqdesktop.png
+- assets/README docs/desktop/contactusdesktop.png
 
 Mobile Device wireframe
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
-- README docs/.jpg
+- assets/README docs/mobile/landingpagemobile.png.png
+- assets/README docs/mobile/learnaboutirelandmobile.png
+- assets/README docs/mobile/exploreirelandmobile.png
+- assets/README docs/mobile/faqmobile.png
+- assets/README docs/mobile/contactusmobile.png
 
 ### Features
 
