@@ -91,7 +91,7 @@ ul {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #f0f8ff;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -103,11 +103,13 @@ ul {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  display:inline;
+  color:#1a1a1a;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #1236A3;;
 }
 
 /* Create an active/current tablink class */
