@@ -285,68 +285,128 @@ Contact us
 - Fixed Top overlaying my alert bar. During develpment I played around with a fixed top. At first the Alert Bar would disappear behind the Navbar. Then as I corrected the code the alert bar came in on top of the navbar but this would then overlay onto the section of each page. I used padding and height settings to solve this problem but I also changed the Navbar to a sticky-top. I am unsure whether the sticky-top class changed things very much. I did a lot of refining with heights and padding to get the website to render the way it is now.
 - Fixed Bottom I deployed a fixed bottom for the footer early in the development process. Unfortunately this overlayed  in the section element of each page. I was unable to resolve this using height, padding and overflow css properties and values.
 - On the learn about Ireland page when you hover the cursor over the card and then toggle any of the buttons you will notice that unless you toggle the same button to "close" the content before moving onto the next button will simple add it's content underneath. This is a bug that needs to be resolved in future development. 
+- On the learn about Ireland page the history photo on the card flip had to be rotated to this photo because the other others stretched and I could not reolve this stretch despite deploying css selector, properties and values to try and manipulate the image.
 - On the explore Ireland page you will find the code for the Google Maps API is written with the HTML below the footer. I acknowledge that this is bad practise but I was unable to get the map to render unless the code was in HTML page. I researched a reason why but I could not find one that I can understand. I will need to keep looking for answers with this feature to better refine my code.
 - On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this would not lead to the correct information being transmitted through email JS. 
-
+ 
 ### Deployment
 
+Basic information 
+
 - Deployment project on Github
-- This project is hosted in github repository. It was developed using Gitpod. Link to the repository https://github.com/Andrew-code2020/CI-MS-1-Lean-Temple
-- Open link to project static website https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
+- This project is hosted in github repository. It was developed using Gitpod. Link to the repository https://github.com/Andrew-code2020/MS2
+- Open link to project website https://andrew-code2020.github.io/MS2/
+
+Creating the repository
+
+- To make the project in my github repository I went to the code institute recommended repository via this link https://github.com/Code-Institute-Org/gitpod-full-template
+- I then clicked on use this template and created a new repository in my github account
+- The screenshots of this process are available by following the directories below
+    - assets/README docs/creating repo/step 1 copy repo template.png
+    - assets/README docs/creating repo/step 2 creating repo name.png
+
+Deploying the project
+
+- To deploy the project we went in the repository on this link https://github.com/Andrew-code2020/MS2
+- Clicked on the settings button
+- Scrolled down to the Github pages section
+- clicked the dropdown menu marked none then selected master
+- clicked save
+- The following link to the live site then appears in the Github Pages section https://andrew-code2020.github.io/MS2/
+- The screenshots of this process are available by following the directories below
+    - assets/README docs/deploy the project/step 1 deployment.png
+    - assets/README docs/deploy the project/step 2 deployment select none.png
+    - assets/README docs/deploy the project/step 3 deployment select save.png
+    - assets/README docs/deploy the project/step 4 deployed site.png
 
 ### Credits
 
-- I consulted the folowing websites to learn about taking a holiday in Ireland https://www.discoveringireland.com/fly-to-ireland/
+- I consulted the folowing websites to learn about taking a holiday in Ireland
+   - https://www.discoveringireland.com/fly-to-ireland/
+   - https://www.failteireland.ie/
+
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
-- https://stackoverflow.com/
-  - Features influenced
-    - Background images
-- https://www.w3schools.com/default.asp
-  - Features influenced
-    - Border
-    - Hover
+    - https://stackoverflow.com/
+        - Features influenced
+        - Background images
+        - height and view port of map
+    - https://www.w3schools.com/default.asp
+         - Features influenced
+            - Border
+            - Hover
+            - overflow
+            - card flip
 - I used Bootstrap through out the project to deploy a mobile first design principle.
+  - Wesbite https://getbootstrap.com/
   - Features influenced
     - Header
     - Footer
     - Section
-    - Jumbotron
     - Navbar
     - Alert Bar
     - Form
-    - Dropdown
+    - Dropdown menu
     - Buttons
-    - Search Bar
-- Google Fonts I imported the text font Roboto from Google Fonts website https://fonts.google.com/
-- I copied the Jumbtron idea from our code along whiskey drop project. I used Boostrap to copy the code and then modified it to fit the style of this project. Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
-- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project.
+
+- Google Fonts I imported the text font Recursive from Google Fonts website https://fonts.google.com/
+
+- I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I used Boostrap to copy the code and then modified it to fit the style of this project. Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
+
+- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom code to style the icons and make them more responsive. The icon next to the code institute is not the true code institute icon it is a freely available icon in font awesome.
+
+- I copied the card flip code from W3schools.com https://www.w3schools.com/howto/howto_css_flip_card.asp. I then customised it's functionality in my project.
+
+- I copied the toggle, show and hide, mouseenter, mouseleave code from jQuery https://jquery.com/. I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. 
+
+- I copied the footer design from https://dermomurphy.github.io/Dublin-360-CI/index.html and then customised it to fit my project.
+
 - I frequently referred back to the following code institute modules to research how to construct certain features
 
   - HTML Fundamentals
   - CSS Fundamentals
   - User Centric Front End Development
+  - JavaScript Fundamentals
+  - Interactive Front End Development
 
-- I copied the Bootstrap CDN and Fonta awesome CDN links from my previous milestone project
-- https://www.geeksforgeeks.org/ for custom navbar
-- Jquery "https://code.jquery.com/jquery-3.5.1.js"
-- Facts on Irish History obtained from https://en.wikipedia.org/wiki/Ireland
+- I copied the Bootstrap CDN and Font awesome CDN links from my previous milestone project
+- I copied the idea of the class custom navbar from  https://www.geeksforgeeks.org/. This did not make the final project cut but never the less helped me shape my understanding of the navbar from bootstrap. 
+
+- I copied the majority of the information available in the sections below from https://en.wikipedia.org/wiki/Ireland
+  - History (Heading)
+    - 19th Century (Button)
+    - 20th Century (Button)
+    - 21st Century (Button)
+  - Geography (Heading)
+    - Dimensions (Button)
+    - Climate (Button)
+    - Wildlife (Button)
+  - Sport (Heading)
+   - GAA (Button)
+   - Soccer (Button)
+   - Rugby (Button)
+  - Culture (Heading)
+   - Music (Button)
+   - Language (Button)
+   - Science (Button)
+
+-Information not found in the wikipedia page reflects my own experience of Irish culture or pieces of information that I have known for a long time from living and working in Ireland.
 
 ##### Content
 
-- The content was constructed by the student with inspiration from their experience as a fitness professional for over 10 years. It is designed to be entirely fictional and the business does not exist. Andrew and Julie really do exist. Andrew is the author of this project and Julie is his partner. Andrew's qualifications are real and his biography is real. Julie's qualifications as a Lawyer are real but her Yoga and Pilates qualifications are a work of fiction.
+- The content was constructed by the student with inspiration from their experience as an Irish citizen for the past 31 years. 
+- The holiday destainations and the markers they hold on the map are real. The price to stay there is completely made up as are the activities.
+- Holiday in Ireland is designed to be fictional and the business does not exist. 
 
 ##### Media
 
 - The photos used in this site were obtained from pexels.com
   - These photos are placed in the website on the following pages;
-    - Landing Page Jumbotron
-    - Fitness Classes page
-    - Monthly Fitness Challenges (bottom picture)
-- The other photos were taken from the students personal library
-  - These photos are placed in the website on the following pages;
-    - Trainers page
-    - Monthly Fitness Challenges (Top picture)
+    - Landing Page Hero Image
+    - Learn about Ireland page
+    - Explore Ireland page
+
 
 ##### Acknowledgements
 
-- I received inspiration for this project from the Code Institute Tutorial videos and my mentor Rhey Ann Magcalas.
+- I received inspiration for this project from the Code Institute Tutorial videos and my mentors Mrs Rhey Ann Magcalas and Mr. Adegbenga Adeye.
+- I would also like thank the following members of the Tutor Assistance Team Tim Nelson, Anna (apologies that I could not find your surname), Xavier (apologies that I could not find your surname) and Haley (apologies that I could not find your surname). I spent many hours trying to work through problems I encountered with them.
