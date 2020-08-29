@@ -324,6 +324,7 @@ Deploying the project
 - I consulted the folowing websites to learn about taking a holiday in Ireland
    - https://www.discoveringireland.com/fly-to-ireland/
    - https://www.failteireland.ie/
+   - https://www.waterfordgreenwaybikehire.com/ 
 
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
     - https://stackoverflow.com/
