@@ -87,11 +87,14 @@ ul {
     width:100%
 }
 
+/*---https://www.w3schools.com/w3css/w3css_tabulators.asp---*/
+
 /* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f0f8ff;
+  background-color: #80C4FF;
+  display:inline-grid; /*-- or grid whichever looks better--*/
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -124,6 +127,8 @@ ul {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+
 
 /*-------------------------------General Section -----------------------------------------------------------*/
 
