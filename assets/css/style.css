@@ -94,7 +94,7 @@ ul {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #80C4FF;
-  display:inline-grid; /*-- or grid whichever looks better--*/
+  display:grid; /*-- or grid whichever looks better--*/
 }
 
 /* Style the buttons that are used to open the tab content */
