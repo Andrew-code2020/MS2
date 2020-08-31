@@ -80,7 +80,6 @@ ul {
     width: 80%; 
     height: 300px; 
     border-radius: 21px 21px 0 0; 
-    position: center;
 }
 
 .guitar2, .bridge2{
@@ -144,7 +143,7 @@ section {
 .sectionpadding
 {
     padding-top: 140px;
-    padding bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .sectionpaddinglearnaboutireland {
@@ -169,7 +168,6 @@ section {
   background-image: url("../images/geography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position:center;
   color: hsl(0, 0%, 100%);
   text-shadow:2px 2px#1a1a1a;
   min-height:50vh;
@@ -288,6 +286,7 @@ h2{
 
 
 /*--------------------------------------explore ireland----------------------------------------------------------*/
+
 #map {
   height: 100vh;
 }
@@ -310,7 +309,6 @@ h2{
 
 .card {
     width:75%;
-    position: center;
 }
 
 /*----------------------------------------Footer--------------------------------------------------------------*/

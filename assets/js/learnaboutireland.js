@@ -66,18 +66,3 @@ $(".toggleButtonlanguage").click(function (){
 $(".toggleButtonscience").click(function (){
     $(".science").toggle("slow");
 });
-
-
-/***$(".toggleButton").click(function (){
-
-    $(this).next("p[class$='century']").toggle("slow");
-    $(this).next("p[class$='century']").toggle("slow");
-    $(this).next("p[class$='century']").toggle("slow");
-
-});***/
-
-/*--$( ".history" ).click(function() {
-  $( this ).replaceWith( $( `<p class="factone"> Irish Republican Army (IRA), launched a three-year guerrilla war, which ended in
-						a truce in July 1921
-					</p>` ) );
-});--*/
