@@ -334,6 +334,16 @@ Deploying the project
      - https://crokepark.ie/
      - https://www.jamesonwhiskey.com/en-EN/
      - http://debarra.ie/
+    - Wellness
+     - https://powerscourt.com/
+     - https://www.inchydoneyisland.com/
+     - https://www.theeurope.com/
+     - https://www.thecourtyardyogaretreats.ie/
+    - City Break
+     - Dublin Temple Bar https://www.tripsavvy.com/dublins-temple-bar-district-1542340
+     - Cork https://purecork.ie/
+     - Limerick https://www.limerick.ie/
+     - Kilkenny      
 
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
     - https://stackoverflow.com/
