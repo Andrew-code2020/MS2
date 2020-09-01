@@ -7,9 +7,10 @@ The Holiday in Ireland website is designed to people at home in Ireland and abro
 3. Wellness
 4. City Breaks. 
 
-The problem that we are trying to solve is that current holiday websites in Ireland offer too many types of holidays. We want to slim the offer down and focus
-on these four strategically valuable markets. We have designed the website to offer quick links to the best quality holidays in these four areas. The success
-of this website is that the user is able to locate the holiday they want quickly and easily without having to sift through the large amounts of offers on other sites.  
+The problem that we are trying to solve is that current holiday websites in Ireland offer too many different types of holiday. We want to slim down the offerings and focus
+on these four strategically valuable markets. We have designed the website to offer bitesize information on the best quality holidays in these four areas. The success
+of this website is that the user is able to locate the type of holiday they want quickly and easily without having to sift through the large amounts of offers on other sites. 
+Further success will be measured by the number of emails we receive asking us to make a holiday booking.   
 
 ### UX
 
@@ -19,14 +20,14 @@ The key reasons for producing the website were to;
 - help new potential visitors learn easily about the type of holidays that are available in Ireland
 - help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland
 - help new potential users easily follow Ireland on various Social Media accounts
-- help the Ireland attract tourists
+- help Ireland attract tourists
 
-At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source for basic information about holidays in Ireland at the best tourist destinations.
+At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source of basic information about holidays in Ireland at the best tourist destinations.
 It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior experience of Ireland as a tourist destination. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
-At the outset conventional web design features were favoured because we wanted everyone from the novice to accompolished web user to feel like they were still in a familiar place on the web. 
-The vision for the project was to have a website that displayed basic information on Irelands top tourist destination with quick options to open a communication channel with the Holiday in Ireland team to help the user make a booking. 
+At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
+The vision for the project was to have a website that displayed basic information on Irelands top tourist destinations with quick options to open a communication channel with the Holiday in Ireland team to help the user make a booking. 
 Further objectives included;
 - implementing interactive features on the web site to help the user feel in touch with Ireland
 - allow the user to locate holiday areas in Ireland
@@ -281,7 +282,6 @@ Contact us
 
 #### Bugs
 
-- Galaxy 5S Jumbotron seems to overlay on top of the footer. Despite my best efforts I was unable to solve this.
 - Fixed Top overlaying my alert bar. During develpment I played around with a fixed top. At first the Alert Bar would disappear behind the Navbar. Then as I corrected the code the alert bar came in on top of the navbar but this would then overlay onto the section of each page. I used padding and height settings to solve this problem but I also changed the Navbar to a sticky-top. I am unsure whether the sticky-top class changed things very much. I did a lot of refining with heights and padding to get the website to render the way it is now.
 - Fixed Bottom I deployed a fixed bottom for the footer early in the development process. Unfortunately this overlayed  in the section element of each page. I was unable to resolve this using height, padding and overflow css properties and values.
 - On the learn about Ireland page when you hover the cursor over the card and then toggle any of the buttons you will notice that unless you toggle the same button to "close" the content before moving onto the next button will simple add it's content underneath. This is a bug that needs to be resolved in future development. 

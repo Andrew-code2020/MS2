@@ -111,7 +111,7 @@ ul {
 
 /* -Change background color of buttons on hover -*/
 .tab button:hover {
-  background-color: #84FF80;
+  background-color: #c4ff80;
 }
 
 /* -Create an active/current tablink class- */
@@ -168,7 +168,7 @@ section {
   background-image: url("../images/heroimage.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  color: hsl(0, 0%, 100%);
+  color: #c4ff80;
   text-shadow:2px 2px#1a1a1a;
   min-height:50vh;
   width: 100%;
@@ -317,7 +317,7 @@ footer {
   background-color: #80C4FF;
   color: #1a1a1a;
   font-family: Recursive, sans-serif;
-  height:auto;
+  height:100%;
   padding-top: 10px;
   padding-bottom: 20px;
 }
