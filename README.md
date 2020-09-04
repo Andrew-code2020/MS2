@@ -231,6 +231,31 @@ Developed with
 
 #### Home/Landing page
 
+Go to the "Home" page
+- Verify that when you hover the cursor over any destination in the grid and verify that the hover feature means the grid turns green
+- click on any destination in the grid and verify that content pertinent to that destination appear below in a box with the destination turning golden rod yellow so the user knows which destination the content is referring too.  
+- Click on each button to toggle the appearance of further information on each of the following topics
+  - Activity (Heading)
+    -  Delphi Resort
+    -  CenterParcs
+    -  Donegal Adventure Center
+    - Waterford Greenway
+  - Culture (Heading)
+    - Newgrange 
+    - Croke Park
+    - De Barra Folk Club 
+    - Jameson Distillery
+  - Sport (Heading)
+   - Inchodoney
+   - The Europe
+   - Wicklow Yoga Retreat
+   - Powerscourt
+  - Culture (Heading)
+   - Dublin 
+   - Cork
+   - Limerick
+   - Kilkenny
+
 #### Learn about Ireland page
 
 Learn about Ireland
@@ -329,8 +354,8 @@ Creating the repository
 - To make the project in my github repository I went to the code institute recommended repository via this link https://github.com/Code-Institute-Org/gitpod-full-template
 - I then clicked on use this template and created a new repository in my github account
 - The screenshots of this process are available by following the directories below
-    - assets/readmedocs/creating repo/step 1 copy repo template.png
-    - assets/readmedocs/creating repo/step 2 creating repo name.png
+    - assets/readmedocs/creatingrepo/step1copyrepotemplate.png
+    - assets/readmedocs/creatingrepo/step2creatingreponame.png
 
 Deploying the project
 
@@ -341,10 +366,10 @@ Deploying the project
 - clicked save
 - The following link to the live site then appears in the Github Pages section https://andrew-code2020.github.io/MS2/
 - The screenshots of this process are available by following the directories below
-    - assets/readmedocs/deploy the project/step 1 deployment.png
-    - assets/readmedocs/deploy the project/step 2 deployment select none.png
-    - assets/readmedocs/deploy the project/step 3 deployment select save.png
-    - assets/readmedocs/deploy the project/step 4 deployed site.png
+    - assets/readmedocs/deploytheproject/step1deployment.png
+    - assets/readmedocs/deploytheproject/step2deploymentselectnone.png
+    - assets/readmedocs/deploytheproject/step3deploymentselectsave.png
+    - assets/readmedocs/deploytheproject/step4deployedsite.png
 
 ### Credits
 
