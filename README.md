@@ -1,4 +1,4 @@
-# Holiday in Ireland Destination
+# Holiday in Ireland
 
 The Holiday in Ireland website is designed such that people at home in Ireland and abroad may four types of holiday;
 
@@ -55,8 +55,8 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
 
 - How did I get here?
   - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Holiday in Ireland social media platforms. The platforms are currently connected to the developers account because the Holiday in Ireland social media accounts do not exist 
-  - The navbar and footer are the exact same on each page and with current page highlighted yellow in the nav bar the user is able to easily identify where they came from.
-  - This alert bar on FAQ page has COVID-19 alert providing users with the most up to date travel information from the Government of Ireland.
+  - The navbar and footer are the exact same on each page and with the current page highlighted yellow in the navbar so that the user may easily identify where they are and where they came from.
+  - The alert bar on the FAQ page has a COVID-19 alert providing users with the most to up to date travel information from the Government of Ireland. It opens into a new tabe such that user knows the website they came from.
 
 - What can I do here?
   - The user is invited clearly to click on and then access various features of the Holiday in Ireland website. 
@@ -65,11 +65,14 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
      - Footer via the social media icons
      - the contact us page Submit up your holiday in Ireland form button
      - the buttons under the flip cards toggle to reveal basic information 
-     - the user can also click on the bottom left footer icons to see how the website was made
-  - The flip cards on the Learn about Ireland and Explore Ireland pages allow the user to hover the mouse over the cards revealing features whereby the user may access further information.
+     - the user can also click on the bottom left footer icons which directs the suer to resources that helped make the website was made
+     - The FAQ button contains a button to theleft of the text which toggles to reveal more text content on the chosen subject area.
+  - The user may hover the cursor over the pictures on the Learn about Ireland and Explore Ireland page to reveal options which present themselves as buttons which then toggle to reveal further text content.
+ -
 - Where can I go from here?
   - The navbar and footer are the exact same on each page (except the FAQ page where an alert bar offers a link to further information on travel advice) and with the current page highlighted yellow in the navbar the user is able to easily identify where they are and where they can go from here. 
-  - The blue hover feature is also designed to indicate to the user that they can click on this icon/button/word in navbar and access further content.
+  - The blue hover feature is also designed to indicate to the user that they can click on this icon/button/word in the navbar and access further content.
+  - On the home page the cards (under the main hero image) when you hover the cursor over the grid panels the panel will turn green indicating that you may click here to reveal content. When the content is revealed the current panel which the content refers to is in yellow to help the user easily identify where they are on the page and which destination the infomration they are looking at is referring back too.
 
 * Original Wireframe link - 
 
@@ -83,7 +86,7 @@ Desktop wireframe
 - assets/README docs/desktop/contactusdesktop.png
 
 Mobile Device wireframe
-- assets/README docs/mobile/landingpagemobile.png.png
+- assets/README docs/mobile/landingpagemobile.png
 - assets/README docs/mobile/learnaboutirelandmobile.png
 - assets/README docs/mobile/exploreirelandmobile.png
 - assets/README docs/mobile/faqmobile.png
@@ -106,14 +109,15 @@ Mobile Device wireframe
 - Icons
 - Contact Us Form wired up with Email JS
 - Email JS
-- Google Maps API 
+- Google Maps API
+- JS Tabs 
 - Jquery Toggle
 - Jquery mouse enter mouse leave
 
 ##### Existing Features
 
 - Internal links to different parts of the Holiday in Ireland website
-- External links that open a new to different platforms such as social media, the government of Ireland website and links that are not developed yet due to a lack of permissions
+- External links that open a new to different platforms such as social media, the government of Ireland website and links that are not developed yet due to a lack of permissions. The social media accounts are linked to the developers social media accounts to demonstrate the skill of adding external links
 - Header - Contains our Alert Bar (where appropriate) and Navbar
 - Easy navigation - The Navbar at the top of each page is similar to conventional navbars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page for ease of navigation. The navbar collapses on mobile devices to a single cog wheel. The navbar also includes a current class in yellow so the user knows what page they are on with one look.
 - Alert Bar - Appears only in the FAQ section and gives a direct link to the government of Ireland COVID-19 travel advice page for the benefit of users as they may need this information when planning a holiday in Ireland. 
@@ -137,7 +141,7 @@ Mobile Device wireframe
 - Weather API to show tourists the time difference and the current time in Ireland
 - Blog of different places recommended by Holiday in Ireland
 - Live chat bubble
-- Pay directly for a holiday rather than requesting a booking
+- Book and Pay directly for a holiday rather than requesting a booking
 - Search function in Navbar
 - Analytics that show user traffic flow
 - Testimonials - Holiday users
@@ -146,7 +150,7 @@ Mobile Device wireframe
 
 - HTML5 - Used for structure and content of website
 - CSS3 - Used for personalised custom built styling of website
-- JavaScript - Used for email JS and Google Maps API
+- JavaScript - Used for email JS, Google Maps API and JS Tabs
 - jQuery 
     - Used to deliver interactive features such as toggle and show and hide 
     - Wesbite https://jquery.com/
@@ -162,6 +166,11 @@ Mobile Device wireframe
 - Google Font
   - Website https://fontawesome.com/
   - Used to import font
+- Code Validators
+ - HTML - https://validator.w3.org/
+ - CSS Validator - https://jigsaw.w3.org/css-validator/#validate_by_input
+ - JavaScript and JQuery valiadtor https://jshint.com/
+
 
 ### Testing
 
@@ -186,7 +195,7 @@ Testing Browsers and screens you tested it on
 Alert Bar
 
 - Go to the Holiday in Ireland "FAQ" page.
-- Verify that by clicking on the infomration icon that a new tab opens and a government of Ireland travel advice website appears.
+- Verify that by clicking on the information icon that a new tab opens and a government of Ireland travel advice website appears.
 
 Nav Bar
 
@@ -293,7 +302,9 @@ Contact us
 - On the explore Ireland page you will find the code for the Google Maps API is written with the HTML below the footer. I acknowledge that this is bad practise but I was unable to get the map to render unless the code was in HTML page. I researched a reason why but I could not find one that I can understand. I will need to keep looking for answers with this feature to better refine my code.
 - on the explore Ireland page you will find that the map does not fill the screen space or operate relative to the elements on the left to balance it's appearance. This is something I'm keen to find a solution too in the next stage of development.
 - On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this would not lead to the correct information being transmitted through email JS. 
- 
+- My Mentor noted that my code formatting was not correct in some areas I preformed the Gitpod formatting procedure several times and nothing changed. I tried exporting the code to VSCode and formatting it there but then I couldn't send it back to the Github repository. I ran all the code through a code beautifier https://codebeautify.org/ and the difference was minimal. I don't understand what good formatting looks like. I'd be keen to find out if it could be shown to me. I'll continue my research. 
+
+
 ### Deployment
 
 Basic information 
