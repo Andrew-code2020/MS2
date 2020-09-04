@@ -1,6 +1,6 @@
 # Holiday in Ireland Destination
 
-The Holiday in Ireland website is designed to people at home in Ireland and abroad find four types of holiday;
+The Holiday in Ireland website is designed such that people at home in Ireland and abroad may four types of holiday;
 
 1. Activity 
 2. Culture
@@ -8,9 +8,9 @@ The Holiday in Ireland website is designed to people at home in Ireland and abro
 4. City Breaks. 
 
 The problem that we are trying to solve is that current holiday websites in Ireland offer too many different types of holiday. We want to slim down the offerings and focus
-on these four strategically valuable markets. We have designed the website to offer bitesize information on the best quality holidays in these four areas. The success
+on the above named four strategically valuable markets. We have designed the website to offer bitesize information on the best quality holidays in these four areas. The success
 of this website is that the user is able to locate the type of holiday they want quickly and easily without having to sift through the large amounts of offers on other sites. 
-Further success will be measured by the number of emails we receive asking us to make a holiday booking.   
+Further success will be measured by the number of emails we receive asking the holiday in Ireland team to make a holiday booking.   
 
 ### UX
 
@@ -18,7 +18,7 @@ The key reasons for producing the website were to;
 
 - help potential visitors learn about Ireland as a holiday destination
 - help new potential visitors learn easily about the type of holidays that are available in Ireland
-- help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland
+- help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland.
 - help new potential users easily follow Ireland on various Social Media accounts
 - help Ireland attract tourists
 
@@ -32,16 +32,17 @@ Further objectives included;
 - implementing interactive features on the web site to help the user feel in touch with Ireland
 - allow the user to locate holiday areas in Ireland
 - allow the user to learn some basic information about Ireland
+- allow the user to reach out and make contact with the Holiday in Ireland team
 
 
 ###### User Story 1
 
-I am a currently researching holiday destinations. A friend recommends that I check out a website named "Holiday in Ireland". I search the web find the Holiday in Ireland website. In particular I click on Learn about Ireland. I hover my mouse over the pictures on the page and card flip features reveals buttons 
-that allow me to toggle through information on different aspects of Ireland and discover some basic information.
+I am a currently researching holiday destinations. A friend recommends that I check out a website named "Holiday in Ireland". I search the web find the Holiday in Ireland website. In particular I click on Learn about Ireland. I hover my mouse over the pictures on the page and card flip features reveal buttons 
+that allow me to toggle through information on different pieces of infomration about Ireland and discover some basic information.
 
 ###### User Story 2
 
-I want to book an activity holiday in Ireland. I browse the web and find Holiday in Ireland. I click on the contact us page fill out the form specifying the the paramters of my activity holiday and hit send.
+I want to book an activity holiday in Ireland. I browse the web and find Holiday in Ireland. I click on the contact us page fill out the form specifying the the parameters of my activity holiday and hit send.
 
 ###### User Story 3
 
@@ -50,11 +51,13 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
 ###### User Questions
 
 - Where am I?
-  - On each page the Navbar highlights that page in yello. This helps you locate where you are on the Holiday in Ireland site
+  - On each page the Navbar highlights that page in yellow. This helps you locate where you are on the Holiday in Ireland site
+
 - How did I get here?
   - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Holiday in Ireland social media platforms. The platforms are currently connected to the developers account because the Holiday in Ireland social media accounts do not exist 
   - The navbar and footer are the exact same on each page and with current page highlighted yellow in the nav bar the user is able to easily identify where they came from.
   - This alert bar on FAQ page has COVID-19 alert providing users with the most up to date travel information from the Government of Ireland.
+
 - What can I do here?
   - The user is invited clearly to click on and then access various features of the Holiday in Ireland website. 
   - This occurs in the following places;
