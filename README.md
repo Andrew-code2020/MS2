@@ -292,16 +292,27 @@ Contact us
 - The programming of the website allows it to adjust column widths on smaller devices and stack elements in a display to fit different browsers mentioned earlier and different devices mentioned earlier. The most obvious examples are the navbar which becomes a drop down menu and stacks on top of itself and the footer which stacks on top of itself and allows the user to scroll down. 
 - The Project was built with mobile first design principles
 
+#### Code Validation
+I used the following code validators to help me debug my code
+
+- Code Validators
+ - HTML - https://validator.w3.org/
+ - CSS Validator - https://jigsaw.w3.org/css-validator/#validate_by_input
+ - JavaScript and JQuery valiadtor https://jshint.com/
+
+I also used following website to help me correct any formatting anomalies in my code
+- https://codebeautify.org/ 
+
 #### Bugs
 
-- Fixed Top overlaying my alert bar. During develpment I played around with a fixed top. At first the Alert Bar would disappear behind the Navbar. Then as I corrected the code the alert bar came in on top of the navbar but this would then overlay onto the section of each page. I used padding and height settings to solve this problem but I also changed the Navbar to a sticky-top. I am unsure whether the sticky-top class changed things very much. I did a lot of refining with heights and padding to get the website to render the way it is now.
-- Fixed Bottom I deployed a fixed bottom for the footer early in the development process. Unfortunately this overlayed  in the section element of each page. I was unable to resolve this using height, padding and overflow css properties and values.
+- Fixed Top overlaying my alert bar. During develpment I played around with a fixed top for the Navbar. At first the Alert Bar would disappear behind the Navbar. Then as I corrected the code the alert bar came in on top of the navbar but this would then overlay onto the section of each page. I used padding and height settings to solve this problem but I also used the sticky-top class in the navbar. I am unsure whether the sticky-top class changed things very much. I did a lot of refining with heights and padding to get the website to render the way it looks now.
+- Fixed Bottom I deployed a fixed bottom for the footer early in the development process. Unfortunately this overlayed  in the section element of each page. I was unable to resolve this using height, padding and overflow css properties and values. Research and feedback would seem to indicate that fixed bottom is very hard to use appropriately. Perhaps future development will reveal a solution.
 - On the learn about Ireland page when you hover the cursor over the card and then toggle any of the buttons you will notice that unless you toggle the same button to "close" the content before moving onto the next button will simple add it's content underneath. This is a bug that needs to be resolved in future development. 
-- On the learn about Ireland page the history photo on the card flip had to be rotated to this photo because the other others stretched and I could not reolve this stretch despite deploying css selector, properties and values to try and manipulate the image.
-- On the learn about Ireland page each image has inline style for height and width. Despite many attempts to bring the style into the css file each attempt led to either an image that was too big or didn't fit the container. This is definitely something I will examine in future development as I attempt to adopt the convention of styling within the css style sheet. 
-- On the explore Ireland page you will find the code for the Google Maps API is written with the HTML below the footer. I acknowledge that this is bad practise but I was unable to get the map to render unless the code was in HTML page. I researched a reason why but I could not find one that I can understand. I will need to keep looking for answers with this feature to better refine my code.
-- on the explore Ireland page you will find that the map does not fill the screen space or operate relative to the elements on the left to balance it's appearance. This is something I'm keen to find a solution too in the next stage of development.
-- On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this would not lead to the correct information being transmitted through email JS. 
+- On the learn about Ireland page the history photo on the card flip had to be rotated to this photo because the other photos stretched and I could not resolve this stretch despite deploying css selector, properties and values to try and manipulate the other images.
+- On the learn about Ireland page each image has inline style written into the HTML for height and width. Despite many attempts to bring the style into the css file each attempt led to either an image that was too big or didn't fit the container. This is definitely something I will examine in future development as I attempt to adopt the convention of styling within the css style sheet. 
+- On the explore Ireland page you will find the code for the Google Maps API is written within the HTML file below the footer. I acknowledge that this is not recommended practise but I was unable to get the map to render unless the code was in the HTML page. I researched a reason why but I could not find one that I could understand and implement. I will need to keep looking for answers with this feature to better refine my coding skills.
+- On the explore Ireland page you will find that the map does not fill the screen space or operate relative to the elements on the left to balance it's appearance. This is something I'm keen to find a solution too in the next stage of development.
+- On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this did not lead to the correct information being transmitted through email JS onto my gmail account. Instead gridRadios1 was would render even if the gridRadio2 checkbox was selected. This is a code refinement I'll look to refine in future development. 
 - My Mentor noted that my code formatting was not correct in some areas I preformed the Gitpod formatting procedure several times and nothing changed. I tried exporting the code to VSCode and formatting it there but then I couldn't send it back to the Github repository. I ran all the code through a code beautifier https://codebeautify.org/ and the difference was minimal. I don't understand what good formatting looks like. I'd be keen to find out if it could be shown to me. I'll continue my research. 
 
 
@@ -323,7 +334,7 @@ Creating the repository
 
 Deploying the project
 
-- To deploy the project we went in the repository on this link https://github.com/Andrew-code2020/MS2
+- To deploy the project I went into the repository on this link https://github.com/Andrew-code2020/MS2
 - Clicked on the settings button
 - Scrolled down to the Github pages section
 - clicked the dropdown menu marked none then selected master
@@ -337,7 +348,7 @@ Deploying the project
 
 ### Credits
 
-- I consulted the folowing websites to learn about taking a holiday in Ireland
+- I consulted the folowing websites to learn about taking a holiday in Ireland and to help construct meaningful content for this web page
    - https://www.discoveringireland.com/fly-to-ireland/
    - https://www.failteireland.ie/
    - Activity
@@ -359,7 +370,7 @@ Deploying the project
      - Dublin Temple Bar https://www.tripsavvy.com/dublins-temple-bar-district-1542340
      - Cork https://purecork.ie/
      - Limerick https://www.limerick.ie/
-     - Kilkenny      
+     - Kilkenny https://visitkilkenny.ie/    
 
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
     - https://stackoverflow.com/
@@ -388,7 +399,7 @@ Deploying the project
 
 - I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I used Boostrap to copy the code and then modified it to fit the style of this project. Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
 
-- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom code to style the icons and make them more responsive. The icon next to the code institute is not the true code institute icon it is a freely available icon in font awesome.
+- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom code to style the icons and make them more responsive. The icon next to the code institute is not the true code institute icon it is a freely available icon in font awesome. I put that icon because I felt it accurately described the code institute in an icon.
 
 - I copied the card flip code from W3schools.com https://www.w3schools.com/howto/howto_css_flip_card.asp. I then customised it's functionality in my project.
 
@@ -404,10 +415,11 @@ Deploying the project
   - JavaScript Fundamentals
   - Interactive Front End Development
 
-- I copied the Bootstrap CDN and Font awesome CDN links from my previous milestone project
+- I copied the knowledge of how to implement Bootstrap CDN and Font awesome CDN links from my previous milestone project. Link here https://andrew-code2020.github.io/CI-MS-1-Lean-Temple/
+
 - I copied the idea of the class custom navbar from  https://www.geeksforgeeks.org/. This did not make the final project cut but never the less helped me shape my understanding of the navbar from bootstrap. 
 
-- I copied the majority of the information available in the sections below from https://en.wikipedia.org/wiki/Ireland
+- I copied the majority of the content information available in the sections below from https://en.wikipedia.org/wiki/Ireland
   - History (Heading)
     - 19th Century (Button)
     - 20th Century (Button)
@@ -430,14 +442,14 @@ Deploying the project
 ##### Content
 
 - The content was constructed by the student with inspiration from their experience as an Irish citizen for the past 31 years. 
-- The holiday destainations and the markers they hold on the map are real. The price to stay there is completely made up as are the activities.
+- The holiday destinations and the markers they hold on the map are real. The price to stay there is completely made up as are the activities.
 - Holiday in Ireland is designed to be fictional and the business does not exist. 
 
 ##### Media
 
+- The Landing Page Hero Image is a photo from the students personal photo collection
 - The photos used in this site were obtained from pexels.com
   - These photos are placed in the website on the following pages;
-    - Landing Page Hero Image
     - Learn about Ireland page
     - Explore Ireland page
 
