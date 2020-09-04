@@ -79,18 +79,18 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
 Route to wireframe pics in github repository https://marvelapp.com/67bec93
 
 Desktop wireframe
-- assets/README docs/desktop/landingpagedesktop.png
-- assets/README docs/desktop/learnaboutirelanddesktop.png
-- assets/README docs/desktop/exploreirelanddesktop.png
-- assets/README docs/desktop/faqdesktop.png
-- assets/README docs/desktop/contactusdesktop.png
+- assets/readmedocs/desktop/landingpagedesktop.png
+- assets/readmedocs/desktop/learnaboutirelanddesktop.png
+- assets/readmedocs/desktop/exploreirelanddesktop.png
+- assets/readmedocs/desktop/faqdesktop.png
+- assets/readmedocs/desktop/contactusdesktop.png
 
 Mobile Device wireframe
-- assets/README docs/mobile/landingpagemobile.png
-- assets/README docs/mobile/learnaboutirelandmobile.png
-- assets/README docs/mobile/exploreirelandmobile.png
-- assets/README docs/mobile/faqmobile.png
-- assets/README docs/mobile/contactusmobile.png
+- assets/readmedocs/mobile/landingpagemobile.png
+- assets/readmedocs/mobile/learnaboutirelandmobile.png
+- assets/readmedocs/mobile/exploreirelandmobile.png
+- assets/readmedocs/mobile/faqmobile.png
+- assets/readmedocs/mobile/contactusmobile.png
 
 ### Features
 
@@ -329,8 +329,8 @@ Creating the repository
 - To make the project in my github repository I went to the code institute recommended repository via this link https://github.com/Code-Institute-Org/gitpod-full-template
 - I then clicked on use this template and created a new repository in my github account
 - The screenshots of this process are available by following the directories below
-    - assets/README docs/creating repo/step 1 copy repo template.png
-    - assets/README docs/creating repo/step 2 creating repo name.png
+    - assets/readmedocs/creating repo/step 1 copy repo template.png
+    - assets/readmedocs/creating repo/step 2 creating repo name.png
 
 Deploying the project
 
@@ -341,10 +341,10 @@ Deploying the project
 - clicked save
 - The following link to the live site then appears in the Github Pages section https://andrew-code2020.github.io/MS2/
 - The screenshots of this process are available by following the directories below
-    - assets/README docs/deploy the project/step 1 deployment.png
-    - assets/README docs/deploy the project/step 2 deployment select none.png
-    - assets/README docs/deploy the project/step 3 deployment select save.png
-    - assets/README docs/deploy the project/step 4 deployed site.png
+    - assets/readmedocs/deploy the project/step 1 deployment.png
+    - assets/readmedocs/deploy the project/step 2 deployment select none.png
+    - assets/readmedocs/deploy the project/step 3 deployment select save.png
+    - assets/readmedocs/deploy the project/step 4 deployed site.png
 
 ### Credits
 
