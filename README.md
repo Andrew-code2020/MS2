@@ -56,7 +56,7 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
 
 - How did I get here?
   - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Holiday in Ireland social media platforms. The platforms are currently connected to the developers account because the Holiday in Ireland social media accounts do not exist 
-  - The navbar and footer are the exact same on each page and with the current page highlighted yellow in the navbar so that the user may easily identify where they are and where they came from
+  - The navbar and footer are the exact same on each page and with the current page highlighted in golden rod yellow in the navbar so that the user may easily identify where they are and where they came from
   - The alert bar on the FAQ page has a COVID-19 alert providing users with the most to up to date travel information from the Government of Ireland. It opens into a new tab such that the user knows which website they came from
 
 - What can I do here?
@@ -71,9 +71,9 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
   - The user may hover the cursor over the pictures on the Learn about Ireland and Explore Ireland page to reveal options which present themselves as buttons which then toggle to reveal further text content.
  -
 - Where can I go from here?
-  - The navbar and footer are the exact same on each page (except the FAQ page where an alert bar offers a link to further information on travel advice) and with the current page highlighted yellow in the navbar the user is able to easily identify where they are and where they can go from here. 
+  - The navbar and footer are the exact same on each page (except the FAQ page where an alert bar offers a link to further information on travel advice) and with the current page highlighted in golden rod yellow. In the navbar the user is able to easily identify where they are and where they can go from here. 
   - The blue hover feature is also designed to indicate to the user that they can click on this icon/button/word in the navbar and access further content.
-  - On the home page the cards (under the main hero image) when you hover the cursor over the grid panels the panel will turn green indicating that you may click here to reveal content. When the content is revealed the current panel which the content refers to is in yellow to help the user easily identify where they are on the page and which destination the infomration they are looking at is referring back too.
+  - On the home page the cards (under the main hero image) when you hover the cursor over the grid panels the panel will turn green indicating that you may click here to reveal content. When the content is revealed the current panel which the content refers to is in golden rod yellow to help the user easily identify where they are on the page and which destination the infomration they are looking at is referring back too.
 
 * Original Wireframe link - 
 
@@ -120,7 +120,7 @@ Mobile Device wireframe
 - Internal links to different parts of the Holiday in Ireland website
 - External links that open a new to different platforms such as social media, the Government of Ireland website. The social media accounts are linked to the developers social media accounts to demonstrate the skill of adding external links
 - Header - Contains our Alert Bar (where appropriate) and Navbar
-- Easy navigation - The Navbar at the top of each page is similar to conventional navbars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page for ease of navigation. The navbar collapses on mobile devices to a single cog wheel. The navbar also includes a current class in yellow so the user knows what page they are on with one look.
+- Easy navigation - The Navbar at the top of each page is similar to conventional navbars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page for ease of navigation. The navbar collapses on mobile devices to a single cog wheel. The navbar also includes a current class in golden rod yellow so the user knows what page they are on with one look.
 - Alert Bar - Appears only in the FAQ section and gives a direct link to the government of Ireland COVID-19 travel advice page for the benefit of users as they may need this information when planning a holiday in Ireland. 
 - Footer - Linked to some pages we used to develop the website and conatins direct links to the developers Social Media platforms. Holiday in Ireland Social Media specific to this site does not exist but is in future plans
 - Section - The middle section content changes on each page and gives basic information on aspect of the Holiday in Ireland site.
@@ -203,7 +203,7 @@ Navbar
 
 - Go to the Holiday in Ireland "Home/Landing" page or any other Holiday in Ireland page
 - Verify that the home bar is highlighted in golden rod yellow.
-- Verify that this current page feature of highlight yellow occurs across all pages in our navbar by clicking each one in turn
+- Verify that this current page feature of highlight in in golden rod yellow occurs across all pages in our navbar by clicking each one in turn
 
 ##### Footer
 
