@@ -1,6 +1,6 @@
 # Holiday in Ireland
 
-The Holiday in Ireland website is designed such that people at home in Ireland and abroad may four types of holiday;
+The Holiday in Ireland website is designed such that people at home in Ireland and abroad may search for four different types of holiday as indicated below;
 
 1. Activity 
 2. Culture
@@ -9,20 +9,20 @@ The Holiday in Ireland website is designed such that people at home in Ireland a
 
 The problem that we are trying to solve is that current holiday websites in Ireland offer too many different types of holiday. We want to slim down the offerings and focus
 on the above named four strategically valuable markets. We have designed the website to offer bitesize information on the best quality holidays in these four areas. The success
-of this website is that the user is able to locate the type of holiday they want quickly and easily without having to sift through the large amounts of offers on other sites. 
-Further success will be measured by the number of emails we receive asking the holiday in Ireland team to make a holiday booking.   
+of this website is that the user is able to locate the type of holiday they want quickly and easily without having to sift through the large amount of offers on other sites. 
+Further success will be measured by the number of emails we receive asking the Holiday in Ireland team to make a holiday booking.   
 
 ### UX
 
 The key reasons for producing the website were to;
 
 - help potential visitors learn about Ireland as a holiday destination
-- help new potential visitors learn easily about the type of holidays that are available in Ireland
-- help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland.
+- help new potential visitors learn easily about 4 specific types of holiday that are available in Ireland
+- help new potential users connect and communicate easily with someone who will help them make a holiday booking in Ireland at a preferential rate.
 - help new potential users easily follow Ireland on various Social Media accounts
 - help Ireland attract tourists
 
-At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source of basic information about holidays in Ireland at the best tourist destinations.
+At the outset the minimum viable product was determined to be a communication platform between the operator(s) of the Holiday in Ireland website and a source of basic information about holidays in Ireland at the best tourist destinations in the holiday type areas above.
 It was an objective of this project to include an intuitive design which would allow new potential clients to navigate and enagage with the website without any prior experience of Ireland as a tourist destination. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
@@ -30,7 +30,7 @@ At the outset conventional web design features were favoured because we wanted e
 The vision for the project was to have a website that displayed basic information on Irelands top tourist destinations with quick options to open a communication channel with the Holiday in Ireland team to help the user make a booking. 
 Further objectives included;
 - implementing interactive features on the web site to help the user feel in touch with Ireland
-- allow the user to locate holiday areas in Ireland
+- allow the user to locate the holiday areas easily on a map of Ireland
 - allow the user to learn some basic information about Ireland
 - allow the user to reach out and make contact with the Holiday in Ireland team
 
@@ -38,35 +38,36 @@ Further objectives included;
 ###### User Story 1
 
 I am a currently researching holiday destinations. A friend recommends that I check out a website named "Holiday in Ireland". I search the web find the Holiday in Ireland website. In particular I click on Learn about Ireland. I hover my mouse over the pictures on the page and card flip features reveal buttons 
-that allow me to toggle through information on different pieces of infomration about Ireland and discover some basic information.
+that allow me to toggle through information on different pieces of content about Ireland and discover some basic information.
 
 ###### User Story 2
 
-I want to book an activity holiday in Ireland. I browse the web and find Holiday in Ireland. I click on the contact us page fill out the form specifying the the parameters of my activity holiday and hit send.
+I want to book an activity holiday in Ireland. I browse the web and find the Holiday in Ireland website. I click on the contact us page fill out the form specifying the the parameters of my activity holiday and click Submit up your Holiday in Ireland form.
+I receive an email notification which has a copy of my form and the email address that the Holiday in Ireland use is also visible. 
 
 ###### User Story 3
 
-I am researching culture holiday locations in Ireland. I log onto the Holiday in Ireland website and click explore Ireland. As I hover over the Violin flip card the google map markers that are relevant to culture appear.
+I am researching culture holiday locations in Ireland. I log onto the Holiday in Ireland website and click explore Ireland. As I hover over the Violin flip card the google map markers that are relevant to culture appear. I know the where on the map of Ireland each culture holiday is located.
 
 ###### User Questions
 
 - Where am I?
-  - On each page the Navbar highlights that page in yellow. This helps you locate where you are on the Holiday in Ireland site
+  - On each page the Navbar highlights that page in golden rod yellow. This helps you locate where you are on the Holiday in Ireland site
 
 - How did I get here?
   - Clicking on certain icons opens up new Tabs so the user does not forget which website they accessed the content from such as Holiday in Ireland social media platforms. The platforms are currently connected to the developers account because the Holiday in Ireland social media accounts do not exist 
-  - The navbar and footer are the exact same on each page and with the current page highlighted yellow in the navbar so that the user may easily identify where they are and where they came from.
-  - The alert bar on the FAQ page has a COVID-19 alert providing users with the most to up to date travel information from the Government of Ireland. It opens into a new tabe such that user knows the website they came from.
+  - The navbar and footer are the exact same on each page and with the current page highlighted yellow in the navbar so that the user may easily identify where they are and where they came from
+  - The alert bar on the FAQ page has a COVID-19 alert providing users with the most to up to date travel information from the Government of Ireland. It opens into a new tab such that the user knows which website they came from
 
 - What can I do here?
   - The user is invited clearly to click on and then access various features of the Holiday in Ireland website. 
   - This occurs in the following places;
-     - navbar with the hover feature
+     - Navbar with the hover feature
      - Footer via the social media icons
-     - the contact us page Submit up your holiday in Ireland form button
-     - the buttons under the flip cards toggle to reveal basic information 
-     - the user can also click on the bottom left footer icons which directs the suer to resources that helped make the website was made
-     - The FAQ button contains a button to theleft of the text which toggles to reveal more text content on the chosen subject area.
+     - The contact us page Submit up your holiday in Ireland form button
+     - The buttons under the flip cards toggle to reveal basic information 
+     - The user can also click on the bottom left footer icons which directs the user to resources that helped make the website
+     - The FAQ button contains a button to the left of the text which toggles to reveal more text content on the chosen subject area
   - The user may hover the cursor over the pictures on the Learn about Ireland and Explore Ireland page to reveal options which present themselves as buttons which then toggle to reveal further text content.
  -
 - Where can I go from here?
@@ -117,19 +118,19 @@ Mobile Device wireframe
 ##### Existing Features
 
 - Internal links to different parts of the Holiday in Ireland website
-- External links that open a new to different platforms such as social media, the government of Ireland website and links that are not developed yet due to a lack of permissions. The social media accounts are linked to the developers social media accounts to demonstrate the skill of adding external links
+- External links that open a new to different platforms such as social media, the Government of Ireland website. The social media accounts are linked to the developers social media accounts to demonstrate the skill of adding external links
 - Header - Contains our Alert Bar (where appropriate) and Navbar
 - Easy navigation - The Navbar at the top of each page is similar to conventional navbars allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page for ease of navigation. The navbar collapses on mobile devices to a single cog wheel. The navbar also includes a current class in yellow so the user knows what page they are on with one look.
 - Alert Bar - Appears only in the FAQ section and gives a direct link to the government of Ireland COVID-19 travel advice page for the benefit of users as they may need this information when planning a holiday in Ireland. 
-- Footer - Linked to some pages we use to develop the  website and  conatins direct links to the developers Social Media platforms. Holiday in Ireland Social Media specific to this site does not exist but is in future plans.
+- Footer - Linked to some pages we used to develop the website and conatins direct links to the developers Social Media platforms. Holiday in Ireland Social Media specific to this site does not exist but is in future plans
 - Section - The middle section content changes on each page and gives basic information on aspect of the Holiday in Ireland site.
 - Hero Image - The eye catching landing page designed to convey that the user has arrived on a virtual piece of Ireland. 
-- Dropdown - We tried to avoid displaying too much word information at one time. Our audience indicated a preference of small relevant bite size information. We opted to display the class type and class times immediately with price information available in the dropdown menu.
-- Hover - icons, internal and external links all turn blue when the cursor hovers over them. This lets the user know that there is more information they can access here.
+- Dropdown - We tried to use dropdown options to allow a better visual experience for the user and to avoid long typed response on the contact us form 
+- Hover - icons, internal and external links all turn blue when the cursor hovers over them. This lets the user know that there is more information they can access here
 - Icons - font awesome icons were used to add style and an intuitive feel to the user experience 
-- Contact Form - We wanted people to be able to send us basic information and a message. This feature is non functional right now.
-- jQuery toggle - The buttons on Learn about Ireland and FAQ page allow the user to click on the button to reveal more information about holidays in Ireland.
-- jQuery mouse enter - The cards on Learn about Ireland and Explore Ireland pages allow the user to hover the cursor over a card to reveal more information or take the next step and click on a button to reveal more content about holidays in Ireland.
+- Contact Form - We wanted people to be able to send us basic information and a message. This feature is functional now. If a user submits the form we receive an email to the developers personal gmail burnsad@tcd.ie and a copy is sent the user
+- jQuery toggle - The buttons on Learn about Ireland and FAQ page allow the user to click on the button to reveal more information about holidays in Ireland
+- jQuery mouse enter - The cards on the Learn about Ireland and Explore Ireland pages allow the user to hover the cursor over a card to reveal more information or take the next step and click on a button to reveal more content about holidays in Ireland
 - jQuery show and hide - The cards on Learn about Ireland and Explore Ireland pages make use of show and hide features to allow the user control over when content from the Holiday in Ireland page is revealed to them.
 - JavaScript - Google Maps API so the user can locate where in Ireland their chosen holiday is
 - JavaScript - Contact form linked up by email JS so that the user can send the Holiday in Ireland a quick message with there booking preferences
@@ -137,7 +138,7 @@ Mobile Device wireframe
 
 ##### Features Left to Implement
 
-- Clock API to show tourists the time difference and the current time in Ireland
+- Clock API to show tourists the current time in Ireland
 - Weather API to show tourists the time difference and the current time in Ireland
 - Blog of different places recommended by Holiday in Ireland
 - Live chat bubble
@@ -153,7 +154,7 @@ Mobile Device wireframe
 - JavaScript - Used for email JS, Google Maps API and JS Tabs
 - jQuery 
     - Used to deliver interactive features such as toggle and show and hide 
-    - Wesbite https://jquery.com/
+    - Website https://jquery.com/
 - Bootstrap
   - Website https://getbootstrap.com/
   - Used to import generic styling
@@ -189,19 +190,20 @@ Testing Browsers and screens you tested it on
   - iPhone X
   - iPad
   - iPad Pro
+- I checked the console in developer tools showed no errors on each page as I went through each page
 
 ##### Header
 
 Alert Bar
 
-- Go to the Holiday in Ireland "FAQ" page.
-- Verify that by clicking on the information icon that a new tab opens and a government of Ireland travel advice website appears.
+- Go to the Holiday in Ireland "FAQ" page
+- Verify that by clicking on the information icon that a new tab opens and a government of Ireland travel advice website appears
 
-Nav Bar
+Navbar
 
-- Go to the Holiday in Ireland "Home/Landing" page or any other Temple Lean page.
-- Verify that the home bar is highlighted yellow.
-- Verify that this current page feature of highlight yellow occurs across all pages in our navbar by clicking each one in turn.
+- Go to the Holiday in Ireland "Home/Landing" page or any other Holiday in Ireland page
+- Verify that the home bar is highlighted in golden rod yellow.
+- Verify that this current page feature of highlight yellow occurs across all pages in our navbar by clicking each one in turn
 
 ##### Footer
 
@@ -210,8 +212,8 @@ Social Media
 - Go to the "Home/Landing" or any other page on the Holiday in Ireland website
 - Scroll down to the Footer
 - Click on any social media icon
-- Verify that a new tab opens on correct social media site
-- The social media sites are the developers sites because the Holiday in Ireland wesbite doe not have stand alone social media.
+- Verify that a new tab opens on the correct (ie Facebook opens on Facebook) social media site
+- The social media sites are the developers sites because the Holiday in Ireland wesbite doe not have stand alone social media
 
 Developed with
 
@@ -222,24 +224,25 @@ Developed with
 
 ##### Header and Footer
 
-- Across each of the Holiday in Ireland Web pages you may verify that the Header and the Footer have the same features outlined above.
+- Across each of the Holiday in Ireland web pages you may verify that the Header and the Footer have the same features outlined above
 - There is only one exception and that is the FAQ page where an alert bar is added above the main navigation bar to provide users with government of Ireland travel advice.
 
 ##### Section
 
-- The section element changes it's content depending on which page you are on.
+- The section element changes it's content depending on which page you are on
+- Below I have outlined briefly the testing on each section
 
 #### Home/Landing page
 
 Go to the "Home" page
-- Verify that when you hover the cursor over any destination in the grid and verify that the hover feature means the grid turns green
-- click on any destination in the grid and verify that content pertinent to that destination appear below in a box with the destination turning golden rod yellow so the user knows which destination the content is referring too.  
-- Click on each button to toggle the appearance of further information on each of the following topics
+- Verify that when you hover the cursor over any destination in the grid that the grid turns light green
+- Click on any destination in the grid and verify that content pertinent to that destination appear below in a box with the destination turning golden rod yellow so the user knows which destination the content is referring too.  
+- Click on each destination in the grid and verify that the exact same thing happens for each of the topics below;
   - Activity (Heading)
     -  Delphi Resort
     -  CenterParcs
     -  Donegal Adventure Center
-    - Waterford Greenway
+    -  Waterford Greenway
   - Culture (Heading)
     - Newgrange 
     - Croke Park
@@ -272,21 +275,21 @@ Learn about Ireland
     - Climate (Button)
     - Wildlife (Button)
   - Sport (Heading)
-   - GAA (Button)
-   - Soccer (Button)
-   - Rugby (Button)
+    - GAA (Button)
+    - Soccer (Button)
+    - Rugby (Button)
   - Culture (Heading)
-   - Music (Button)
-   - Language (Button)
-   - Science (Button)
+    - Music (Button)
+    - Language (Button)
+    - Science (Button)
 
 #### Explore Ireland page:
 
 Explore Ireland page
 
 - Go to the "Explore Ireland" page
-- Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on right hand side
-- You may verify that information is different on each card
+- Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on the right hand side of the page
+- You may verify that the information is different on each card
 
 - Go to the "Explore Ireland" page
 - Verify that when you hover the cursor over the cards on the left hand side that cards turn over and reveal which location is matched to the google map markers visible on the map on right hand side
@@ -297,7 +300,7 @@ Explore Ireland page
 FAQ 
 
 - Go to the "FAQ" page
-- Verify that when you click on the toggle button more information appears.
+- Verify that when you click on the toggle button on the left next to the text that more content appears.
 - The information is almost entirely fictional. The place names are real but the prices and activites are made up.
 
 #### Contact Us
@@ -309,7 +312,9 @@ Contact us
 - Verify that we are directed to the contact us page which opens with a form to fill out.
 - When you fill out the form and hit the "Submit up your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
 - The contact us form is functional at this time and completed forms will be sent to burnsad@tcd.ie.
-- The form is coded such that it will empty when the "Submit up your holiday in Ireland" button is pressed
+    - a photo is available of a test email sent from the form is available in the following directory assets/readmedocs/emailjs/emailjs.jpg
+    - the {{from_email}} is set up in the cc of emailjs so the user gets a copy of the submitted form such that they know that the form has gone through to the Holiday in Ireland team. 
+- The form is coded such that it will empty when the "Submit up your Holiday in Ireland" button is pressed. 
 
 #### Appearance differences on other devices
 
@@ -337,8 +342,8 @@ I also used following website to help me correct any formatting anomalies in my 
 - On the learn about Ireland page each image has inline style written into the HTML for height and width. Despite many attempts to bring the style into the css file each attempt led to either an image that was too big or didn't fit the container. This is definitely something I will examine in future development as I attempt to adopt the convention of styling within the css style sheet. 
 - On the explore Ireland page you will find the code for the Google Maps API is written within the HTML file below the footer. I acknowledge that this is not recommended practise but I was unable to get the map to render unless the code was in the HTML page. I researched a reason why but I could not find one that I could understand and implement. I will need to keep looking for answers with this feature to better refine my coding skills.
 - On the explore Ireland page you will find that the map does not fill the screen space or operate relative to the elements on the left to balance it's appearance. This is something I'm keen to find a solution too in the next stage of development.
-- On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this did not lead to the correct information being transmitted through email JS onto my gmail account. Instead gridRadios1 was would render even if the gridRadio2 checkbox was selected. This is a code refinement I'll look to refine in future development. 
-- My Mentor noted that my code formatting was not correct in some areas I preformed the Gitpod formatting procedure several times and nothing changed. I tried exporting the code to VSCode and formatting it there but then I couldn't send it back to the Github repository. I ran all the code through a code beautifier https://codebeautify.org/ and the difference was minimal. I don't understand what good formatting looks like. I'd be keen to find out if it could be shown to me. I'll continue my research. 
+- On the contact us pages the html code validator pointed out that the id = "gridRadios1" must be unique. I tried swapping the id gridRadios1 with gridRadios2 and adding the appropriate code in the sendEmail.js file but this did not lead to the correct information being transmitted through email JS onto my gmail account. Instead gridRadios1 was would render even if the gridRadio2 checkbox was selected. This is a code refinement I'll look to solve in future development. 
+- My Mentor noted that my code formatting was not correct in some areas I preformed the Gitpod formatting procedure several times and nothing changed. I tried exporting the code to VS Code and formatting it there but then I couldn't send it back to the Github repository. I ran all the code through a code beautifier https://codebeautify.org/ and the difference was minimal. I don't understand what good formatting looks like because as I understand it seems to be unique to the company. I'll continue my research here. 
 
 
 ### Deployment
@@ -387,15 +392,15 @@ Deploying the project
      - https://www.jamesonwhiskey.com/en-EN/
      - http://debarra.ie/
     - Wellness
-     - https://powerscourt.com/
-     - https://www.inchydoneyisland.com/
-     - https://www.theeurope.com/
-     - https://www.thecourtyardyogaretreats.ie/
+      - https://powerscourt.com/
+      - https://www.inchydoneyisland.com/
+      - https://www.theeurope.com/
+      - https://www.thecourtyardyogaretreats.ie/
     - City Break
-     - Dublin Temple Bar https://www.tripsavvy.com/dublins-temple-bar-district-1542340
-     - Cork https://purecork.ie/
-     - Limerick https://www.limerick.ie/
-     - Kilkenny https://visitkilkenny.ie/    
+      - Dublin Temple Bar https://www.tripsavvy.com/dublins-temple-bar-district-1542340
+      - Cork https://purecork.ie/
+      - Limerick https://www.limerick.ie/
+      - Kilkenny https://visitkilkenny.ie/    
 
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
     - https://stackoverflow.com/
@@ -409,7 +414,7 @@ Deploying the project
             - overflow
             - card flip
 - I used Bootstrap through out the project to deploy a mobile first design principle.
-  - Wesbite https://getbootstrap.com/
+  - Website https://getbootstrap.com/
   - Features influenced
     - Header
     - Footer
@@ -454,13 +459,13 @@ Deploying the project
     - Climate (Button)
     - Wildlife (Button)
   - Sport (Heading)
-   - GAA (Button)
-   - Soccer (Button)
-   - Rugby (Button)
+    - GAA (Button)
+    - Soccer (Button)
+    - Rugby (Button)
   - Culture (Heading)
-   - Music (Button)
-   - Language (Button)
-   - Science (Button)
+    - Music (Button)
+    - Language (Button)
+    - Science (Button)
 
 -Information not found in the wikipedia page reflects my own experience of Irish culture or pieces of information that I have known for a long time from living and working in Ireland.
 

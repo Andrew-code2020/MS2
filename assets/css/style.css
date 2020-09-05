@@ -9,7 +9,7 @@ nav {
     overflow: auto;
 }
 
-/*--------------------------------------------General Alert Bar-------------------------------------------------------*/
+/*--------------------------------------------Alert Bar-------------------------------------------------------*/
 .alert-danger {
   background-color:#FF9180;
   color:#1a1a1a;
@@ -26,7 +26,7 @@ nav {
   color: #1a1a1a;
 }
 
-/*------------------------------------Nav Bar---------------------------------------------------------------------*/
+/*------------------------------------Navbar---------------------------------------------------------------------*/
 .navbar-color {
   background-color: #80C4FF;
   color: #1a1a1a;
@@ -44,9 +44,6 @@ nav {
   background-color: #f0f8ff;
 }
 
-.navbar-custom {
-  background-color: #cfe7fc;
-}
 
 .navbar-toggler-icon{
     color: #1a1a1a;
@@ -62,7 +59,7 @@ nav {
      text-decoration: none;
  }
 
-/*----Body-----*/
+/*-------------------------------------Body-----------------------------------------------------*/
 body{
     height:auto; 
     background-color: #f0f8ff;
@@ -86,15 +83,14 @@ ul {
     width:100%
 }
 
-/*---https://www.w3schools.com/w3css/w3css_tabulators.asp---*/
 
 /* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #80C4FF;
-  display:grid; /*-- or grid whichever looks better--*/
-}
+  display:grid; 
+  }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
@@ -137,21 +133,12 @@ section {
   background-color: #f0f8ff;
   font-family: Recursive, sans-serif;
   color: #1a1a1a;
-  overflow-y:scroll;
 }
-
-.sectionpadding
-{
-    padding-top: 140px;
-    padding-bottom: 50px;
-}
-
 .sectionpaddinglearnaboutireland {
     padding-top: 50px;
     padding-bottom: 70px;
     overflow-y:scroll;
 }
-
 
 .sectionpaddingfaq
 {
@@ -172,10 +159,6 @@ section {
   text-shadow:2px 2px#1a1a1a;
   min-height:50vh;
   width: 100%;
-}
-
-.Ireland-callout {
-  background-color: #f0f8ff;
 }
 
 
