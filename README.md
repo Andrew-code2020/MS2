@@ -42,7 +42,7 @@ that allow me to toggle through information on different pieces of content about
 
 ###### User Story 2
 
-I want to book an activity holiday in Ireland. I browse the web and find the Holiday in Ireland website. I click on the contact us page fill out the form specifying the the parameters of my activity holiday and click Submit up your Holiday in Ireland form.
+I want to book an activity holiday in Ireland. I browse the web and find the Holiday in Ireland website. I click on the contact us page fill out the form specifying the the parameters of my activity holiday and click Submit your Holiday in Ireland form.
 I receive an email notification which has a copy of my form and the email address that the Holiday in Ireland use is also visible. 
 
 ###### User Story 3
@@ -64,7 +64,7 @@ I am researching culture holiday locations in Ireland. I log onto the Holiday in
   - This occurs in the following places;
      - Navbar with the hover feature
      - Footer via the social media icons
-     - The contact us page Submit up your holiday in Ireland form button
+     - The contact us page Submit your holiday in Ireland form button
      - The buttons under the flip cards toggle to reveal basic information 
      - The user can also click on the bottom left footer icons which directs the user to resources that helped make the website
      - The FAQ button contains a button to the left of the text which toggles to reveal more text content on the chosen subject area
@@ -310,11 +310,11 @@ Contact us
 - Go to the Holiday in Ireland "Home/Landing" page.
 - Click on the "Contact Us" section of the Navbar.
 - Verify that we are directed to the contact us page which opens with a form to fill out.
-- When you fill out the form and hit the "Submit up your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
+- When you fill out the form and hit the "Submit your holiday in Ireland" button the form when a message "please fill out this field appears" if you do not submit a first name.
 - The contact us form is functional at this time and completed forms will be sent to burnsad@tcd.ie.
     - a photo is available of a test email sent from the form is available in the following directory assets/readmedocs/emailjs/emailjs.jpg
     - the {{from_email}} is set up in the cc of emailjs so the user gets a copy of the submitted form such that they know that the form has gone through to the Holiday in Ireland team. 
-- The form is coded such that it will empty when the "Submit up your Holiday in Ireland" button is pressed. 
+- The form is coded such that it will empty when the "Submit your Holiday in Ireland" button is pressed. 
 
 #### Appearance differences on other devices
 
